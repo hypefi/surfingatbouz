@@ -29,10 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${quicksand.variable} ${baloo.variable}`}>
       <body
-        className="font-sans antialiased flex flex-col min-h-screen bg-base text-neutral"
+        className="font-sans antialiased flex flex-col min-h-screen bg-base text-neutral overflow-x-hidden"
       >
         <Header />
-        <main className="flex-grow container mx-auto px-4 py-8">
+        <main className="flex-grow w-full">
           {children}
         </main>
         <Footer />

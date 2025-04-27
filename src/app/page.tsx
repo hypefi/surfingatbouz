@@ -4,9 +4,9 @@ import HeroCarousel from "@/components/hero-carousel/HeroCarousel";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col gap-16 overflow-x-hidden">
       {/* Hero Section with Carousel */}
-      <section className="relative -mt-8 h-[80vh] overflow-hidden">
+      <section className="relative -mt-8 h-[80vh] w-screen overflow-hidden">
         <HeroCarousel>
           <div className="container mx-auto px-4 h-full relative z-20 flex items-center">
             <div className="max-w-2xl text-white hero-content">
@@ -37,7 +37,7 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section className="container mx-auto px-4">
+      <section className="container mx-auto px-4 py-8">
         <h2 className="text-4xl font-display text-primary text-center mb-12">
           <span className="inline-block border-b-4 border-secondary pb-2">What We Offer</span>
         </h2>

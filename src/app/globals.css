@@ -7,6 +7,28 @@ body {
   color: #1a2a3a;
   font-family: 'Quicksand', Arial, sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* Full width element utilities */
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-width: 100vw;
 }
 
 /* Add a subtle wave background to any element with .wave-bg class */

@@ -32,17 +32,17 @@ const HeroCarousel = ({
 
   if (!isClient) {
     return (
-      <div className="hero-carousel relative w-full h-screen">
+      <div className="hero-carousel relative w-screen h-screen">
         <div className="w-full h-full relative">
           <div className="absolute inset-0 bg-black/50 z-10"></div>
-          <div className="relative z-30">{children}</div>
+          <div className="relative z-30 w-full">{children}</div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="hero-carousel relative w-full h-screen">
+    <div className="hero-carousel relative w-screen h-screen overflow-hidden">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
@@ -52,19 +52,21 @@ const HeroCarousel = ({
           disableOnInteraction: false,
         }}
         speed={1000}
-        className="swiper w-full"
+        className="swiper w-screen"
       >
         {images.map((image, index) => (
-          <SwiperSlide key={index} className="swiper-slide w-full">
-            <Image
-              src={image}
-              alt={`Surf background ${index + 1}`}
-              fill
-              className="object-cover w-full"
-              priority={index === 0}
-              sizes="100vw"
-              style={{ width: '100%', objectPosition: 'center' }}
-            />
+          <SwiperSlide key={index} className="swiper-slide w-screen">
+            <div className="relative w-screen h-full">
+              <Image
+                src={image}
+                alt={`Surf background ${index + 1}`}
+                fill
+                className="object-cover"
+                priority={index === 0}
+                sizes="100vw"
+                style={{ objectPosition: 'center' }}
+              />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
