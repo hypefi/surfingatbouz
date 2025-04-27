@@ -1,51 +1,39 @@
 import Image from "next/image";
 import Link from "next/link";
+import HeroCarousel from "@/components/hero-carousel/HeroCarousel";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col gap-16">
-      {/* Hero Section */}
-      <section className="relative -mt-8 py-32 px-4 bg-gradient-to-br from-primary to-secondary text-base overflow-hidden">
-        {/* Decorative wave overlay */}
-        <div className="absolute inset-0 opacity-10">
-          <svg
-            className="w-full h-full"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 320"
-          >
-            <path
-              fill="#ffffff"
-              d="M0,192L48,181.3C96,171,192,149,288,149.3C384,149,480,171,576,186.7C672,203,768,213,864,186.7C960,160,1056,96,1152,80C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            ></path>
-          </svg>
-        </div>
-        
-        {/* Hero content */}
-        <div className="container mx-auto relative">
-          <div className="max-w-2xl">
-            <h1 className="text-6xl md:text-7xl font-display mb-6 leading-tight">
-              Ride the <span className="text-accent">Perfect</span> Wave
-            </h1>
-            <p className="text-xl md:text-2xl mb-10 text-base/90">
-              Custom hand-shaped surfboards built with passion, plus expert coaching
-              to elevate your surfing journey.
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Link
-                href="/surf-coach"
-                className="bg-accent hover:bg-accent/90 text-white font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
-              >
-                Book a Lesson
-              </Link>
-              <Link
-                href="/gallery"
-                className="bg-base/90 hover:bg-base text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
-              >
-                View Boards
-              </Link>
+      {/* Hero Section with Carousel */}
+      <section className="relative -mt-8 h-[80vh] overflow-hidden">
+        <HeroCarousel>
+          <div className="container mx-auto px-4 h-full relative z-20 flex items-center">
+            <div className="max-w-2xl text-white hero-content">
+              <h1 className="text-6xl md:text-7xl font-display mb-6 leading-tight text-white">
+                Ride the <span className="text-accent">Perfect</span> Wave
+              </h1>
+              <p className="text-xl md:text-2xl mb-10 text-white/90">
+                Custom hand-shaped surfboards built with passion, plus expert coaching
+                to elevate your surfing journey.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <Link
+                  href="/surf-coach"
+                  className="bg-accent hover:bg-accent/90 text-white font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
+                >
+                  Book a Lesson
+                </Link>
+                <Link
+                  href="/gallery"
+                  className="bg-white hover:bg-white/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
+                >
+                  View Boards
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        </HeroCarousel>
       </section>
 
       {/* Features Section */}

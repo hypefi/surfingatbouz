@@ -1,0 +1,98 @@
+.hero-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-carousel .swiper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.hero-carousel .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+/* Dark overlay styling */
+.hero-carousel .bg-black\/50 {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+/* Hero content container */
+.hero-content {
+  position: relative;
+  z-index: 30; /* Increased z-index */
+}
+
+/* Ensure swiper fade effect works properly */
+.swiper-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+
+.swiper-fade .swiper-slide-active {
+  pointer-events: auto;
+}
+
+/* Ensure all content inside the carousel has proper z-index */
+.hero-carousel > .relative {
+  z-index: 20;
+}
+
+/* Fix for buttons and text */
+.hero-carousel a, 
+.hero-carousel h1,
+.hero-carousel p {
+  position: relative;
+  z-index: 30; /* Increased z-index */
+}
+
+/* Additional fix for container */
+.hero-carousel .container {
+  position: relative;
+  z-index: 30; /* Increased z-index */
+}
+
+.hero-carousel-slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Fade transition effect */
+.swiper-fade .swiper-slide {
+  transition-property: opacity;
+  transition-duration: 1000ms !important;
+}
+
+/* Content z-indexing */
+.hero-content {
+  position: relative;
+  z-index: 30 !important;
+  color: white;
+  pointer-events: auto;
+}
+
+/* Ensure content in carousel stays on top */
+.hero-carousel .relative.z-20,
+.hero-carousel .z-20 {
+  position: relative;
+  z-index: 20;
+  pointer-events: auto;
+}
+
+/* Additional fix for potential stacking context issues */
+.container.relative.z-20 {
+  z-index: 30 !important;
+  position: relative;
+} 
