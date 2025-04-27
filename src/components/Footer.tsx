@@ -1,9 +1,62 @@
 export default function Footer() {
   return (
-    <footer className="bg-neutral/90 text-gray-300 p-6 mt-12">
-      <div className="container mx-auto text-center">
-        <p>&copy; {new Date().getFullYear()} SurfShaper Co. All rights reserved.</p>
-        {/* Add social media icons/links here later */}
+    <footer className="bg-neutral text-base py-12 mt-12 relative">
+      {/* Wave divider at the top of the footer */}
+      <div className="absolute top-0 left-0 w-full overflow-hidden transform -translate-y-full">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+          className="w-full h-16 text-neutral"
+          style={{ fill: 'currentColor' }}
+        >
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" />
+        </svg>
+      </div>
+      
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          {/* Logo and tagline */}
+          <div className="flex flex-col space-y-4">
+            <div className="text-2xl font-display text-base flex items-center gap-2">
+              <span className="inline-block transform -rotate-3">🏄‍♂️</span>
+              <span>SurfShaper</span>
+            </div>
+            <p className="text-base/80">Hand-crafted boards and expert coaching to help you ride the perfect wave.</p>
+          </div>
+          
+          {/* Quick links */}
+          <div>
+            <h3 className="text-secondary font-display text-xl mb-4">Quick Links</h3>
+            <ul className="space-y-2">
+              <li><a href="/about" className="text-base/80 hover:text-secondary transition-colors">About Us</a></li>
+              <li><a href="/gallery" className="text-base/80 hover:text-secondary transition-colors">Gallery</a></li>
+              <li><a href="/surf-coach" className="text-base/80 hover:text-secondary transition-colors">Surf Coaching</a></li>
+              <li><a href="/board-repair" className="text-base/80 hover:text-secondary transition-colors">Board Repairs</a></li>
+              <li><a href="/contact" className="text-base/80 hover:text-secondary transition-colors">Contact</a></li>
+            </ul>
+          </div>
+          
+          {/* Contact info */}
+          <div>
+            <h3 className="text-secondary font-display text-xl mb-4">Get In Touch</h3>
+            <div className="space-y-2 text-base/80">
+              <p className="flex items-center gap-2">
+                <span>📍</span> Surf City, CA
+              </p>
+              <p className="flex items-center gap-2">
+                <span>📱</span> (123) 456-7890
+              </p>
+              <p className="flex items-center gap-2">
+                <span>✉️</span> info@surfshaper.com
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div className="border-t border-base/10 mt-8 pt-8 text-center text-base/60">
+          <p>&copy; {new Date().getFullYear()} SurfShaper. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   );

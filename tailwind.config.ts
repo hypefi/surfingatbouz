@@ -9,20 +9,29 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-poppins)', 'sans-serif'], // Set Poppins as default sans-serif
-        display: ['var(--font-bangers)', 'cursive'], // Set Bangers for display/headings
+        sans: ['var(--font-quicksand)', 'Montserrat', 'sans-serif'],
+        display: ['var(--font-baloo)', 'Montserrat Alternates', 'cursive'],
       },
       colors: {
-        primary: '#0077cc',
-        secondary: '#48bbd8',
-        accent: '#f4a261',
-        neutral: '#333333',
-        'base': '#ffffff', // Renamed from base-100 for simplicity
+        primary: '#1a73e8',
+        secondary: '#00b8c4',
+        accent: '#ff7a5a',
+        neutral: '#1a2a3a',
+        'base': '#f9fbfc',
+        'sandy': '#f2e9d8',
       },
       backgroundImage: {
+        "wave-pattern": "url('/images/wave-pattern.svg')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      borderRadius: {
+        'xl': '1rem',
+        '2xl': '1.5rem',
+      },
+      boxShadow: {
+        'surf': '0 4px 14px 0 rgba(0, 184, 196, 0.2)',
       },
     },
   },
