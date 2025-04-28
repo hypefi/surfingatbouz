@@ -20,13 +20,13 @@ export default function HomePage() {
               <div className="flex flex-wrap gap-4 justify-start">
                 <Link
                   href="/surf-coach"
-                  className="bg-accent hover:bg-accent/90 text-white font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
+                  className="bg-accent hover:bg-accent/90 font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
                 >
                   Book a Lesson
                 </Link>
                 <Link
                   href="/gallery"
-                  className="bg-white hover:bg-white/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
+                  className="bg-white hover:bg-white/90 font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
                 >
                   View Boards
                 </Link>
@@ -74,7 +74,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/contact"
-            className="bg-accent hover:bg-accent/90 text-white font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
+            className="bg-accent hover:bg-accent/90 font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
           >
             Get in Touch
           </Link>

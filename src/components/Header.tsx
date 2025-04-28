@@ -23,7 +23,7 @@ export default function Header() {
               <Link href="/board-repair" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Board Repair</Link>
             </li>
             <li>
-              <Link href="/contact" className="bg-accent hover:bg-accent/90 text-white font-bold py-2 px-5 rounded-full transition-all transform hover:-translate-y-0.5 shadow-md">Contact</Link>
+              <Link href="/contact" className="bg-accent hover:bg-accent/90 text-primary font-bold py-2 px-5 rounded-full transition-all transform hover:-translate-y-0.5 shadow-md">Contact</Link>
             </li>
           </ul>
         </nav>
