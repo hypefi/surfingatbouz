@@ -75,7 +75,7 @@ const HeroCarousel = ({
       <div className="absolute inset-0 bg-black/50 z-10"></div>
       
       {/* Content container with higher z-index */}
-      <div className="relative z-30 w-full">{children}</div>
+      <div className="relative z-30 w-full h-full flex items-center justify-center">{children}</div>
     </div>
   );
 };

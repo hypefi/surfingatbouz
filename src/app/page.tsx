@@ -8,8 +8,8 @@ export default function HomePage() {
       {/* Hero Section with Carousel */}
       <section className="relative -mt-8 h-[80vh] w-screen overflow-hidden">
         <HeroCarousel>
-          <div className="container mx-auto px-4 h-full relative z-20 flex items-center">
-            <div className="max-w-2xl text-white hero-content">
+          <div className="container mx-auto px-4 h-full relative z-20 flex items-center justify-start">
+            <div className="max-w-2xl text-white hero-content text-left">
               <h1 className="text-6xl md:text-7xl font-display mb-6 leading-tight text-white">
                 Ride the <span className="text-accent">Perfect</span> Wave
               </h1>
@@ -17,7 +17,7 @@ export default function HomePage() {
                 Custom hand-shaped surfboards built with passion, plus expert coaching
                 to elevate your surfing journey.
               </p>
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap gap-4 justify-start">
                 <Link
                   href="/surf-coach"
                   className="bg-accent hover:bg-accent/90 text-white font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
