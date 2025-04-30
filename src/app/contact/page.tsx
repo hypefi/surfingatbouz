@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <div>
+    <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
       <p className="mb-6">
         Have questions, want to book a lesson, order a custom board, or get a repair quote? Get in touch!
