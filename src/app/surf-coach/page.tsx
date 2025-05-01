@@ -3,8 +3,8 @@ export default function SurfCoachPage() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-4">Surf Coaching & Guiding</h1>
       <p className="mb-6">
-        Whether you're a beginner catching your first wave or an experienced surfer
-        looking to refine your skills or explore new breaks, we've got you covered.
+        Whether you&apos;re a beginner catching your first wave or an experienced surfer
+        looking to refine your skills or explore new breaks, we&apos;ve got you covered.
       </p>
 
       <h2 className="text-2xl font-semibold mb-3">Pricing</h2>

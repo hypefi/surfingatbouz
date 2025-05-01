@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import HeroCarousel from "@/components/hero-carousel/HeroCarousel";
 
@@ -70,7 +69,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-display text-primary mb-6">Ready to Catch Some Waves?</h2>
           <p className="text-xl text-neutral/80 max-w-2xl mx-auto mb-10">
-            Whether you're looking to buy a custom board, take a lesson, or get your board repaired, we're here to help.
+            Whether you&apos;re looking to buy a custom board, take a lesson, or get your board repaired, we&apos;re here to help.
           </p>
           <Link
             href="/contact"
