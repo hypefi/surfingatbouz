@@ -17,8 +17,8 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "SurfShaper Co. - Custom Boards & Surf Coaching",
-  description: "Handcrafted surfboards and expert surf lessons & guiding.",
+  title: "Mehdi Assiry SurfShaper - Bouznika, Morocco | Custom Boards & Repair",
+  description: "Expert board repair services by Mehdi Assiry in Bouznika, Morocco.",
 };
 
 export default function RootLayout({

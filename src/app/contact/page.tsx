@@ -14,7 +14,7 @@ export default function ContactPage() {
           <strong>Phone:</strong> <a href="tel:+1234567890" className="text-blue-600 hover:underline">+1 (234) 567-890</a> {/* Replace with actual phone */}
         </p>
         <p>
-          <strong>Location:</strong> Surf City, CA {/* Replace with actual location */}
+          <strong>Location:</strong> Bouznika, Morocco {/* Updated location */}
         </p>
         {/* Optionally, add a contact form component here */}
       </div>

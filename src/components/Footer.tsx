@@ -20,7 +20,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span className="inline-block transform -rotate-3">🏄‍♂️</span>
-              <span className="text-xl font-display text-base">SurfShaper</span>
+              <span className="text-xl font-display text-base">Mehdi Assiry SurfShaper</span>
             </div>
             <p className="text-sm text-base/80">Hand-crafted boards and expert coaching to help you ride the perfect wave.</p>
           </div>
@@ -42,7 +42,7 @@ export default function Footer() {
             <h3 className="text-secondary font-display text-lg mb-1">Get In Touch</h3>
             <div className="grid gap-0.5">
               <p className="flex items-center gap-2 text-sm text-base/80">
-                <span>📍</span> Surf City, CA
+                <span>📍</span> Bouznika, Morocco
               </p>
               <p className="flex items-center gap-2 text-sm text-base/80">
                 <span>📱</span> (123) 456-7890
@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-base/10 mt-4 pt-4 text-center text-xs text-base/60">
-          <p>&copy; {new Date().getFullYear()} SurfShaper. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Mehdi Assiry SurfShaper. All rights reserved.</p>
         </div>
       </div>
     </footer>
