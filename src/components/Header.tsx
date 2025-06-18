@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center py-4 px-5">
         <Link href="/" className="text-3xl font-display tracking-wide text-base flex items-center gap-2 hover:opacity-90 transition-opacity">
           <span className="inline-block transform -rotate-3">🏄‍♂️</span>
-          <span>Mehdi Assiry SurfShaper</span>
+          <span>Mehdi Assiry Surf Guide</span>
         </Link>
         <nav className="hidden md:block">
           <ul className="flex space-x-8 text-base">
@@ -17,7 +17,7 @@ export default function Header() {
               <Link href="/gallery" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Gallery</Link>
             </li>
             <li>
-              <Link href="/surf-coach" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Surf Coach</Link>
+              <Link href="/surf-coach" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Surf Guiding & Hosting</Link>
             </li>
             <li>
               <Link href="/board-repair" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Board Repair</Link>

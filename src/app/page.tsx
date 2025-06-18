@@ -13,8 +13,7 @@ export default function HomePage() {
                 Ride the <span className="text-accent">Perfect</span> Wave
               </h1>
               <p className="text-xl md:text-2xl mb-10 text-white/90">
-                Custom hand-shaped surfboards built with passion, plus expert coaching
-                to elevate your surfing journey.
+                Experience authentic surf guiding and local hosting in Bouznika, Morocco. Let us show you the best waves and make you feel at home, plus expert board repairs to keep you surfing.
               </p>
               <div className="flex flex-wrap gap-4 justify-start">
                 <Link
@@ -44,8 +43,8 @@ export default function HomePage() {
           {/* Feature 1 */}
           <div className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100 transform transition-transform hover:scale-105">
             <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-6 text-secondary text-3xl">🏄‍♂️</div>
-            <h3 className="font-display text-2xl mb-4 text-primary">Custom Shaping</h3>
-            <p className="text-neutral/80">Handcrafted surfboards tailored to your style, experience level, and local wave conditions.</p>
+            <h3 className="font-display text-2xl mb-4 text-primary">Surf Guiding & Hosting</h3>
+            <p className="text-neutral/80">Personalized surf guiding to the best local spots, plus comfortable hosting for a true Moroccan surf experience.</p>
           </div>
           
           {/* Feature 2 */}
@@ -69,7 +68,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-display text-primary mb-6">Ready to Catch Some Waves?</h2>
           <p className="text-xl text-neutral/80 max-w-2xl mx-auto mb-10">
-            Whether you&apos;re looking to buy a custom board, take a lesson, or get your board repaired, we&apos;re here to help.
+            Whether you&apos;re looking for a surf adventure, a place to stay, or need your board repaired, we&apos;re here to help.
           </p>
           <Link
             href="/contact"

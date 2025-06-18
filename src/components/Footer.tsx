@@ -22,7 +22,7 @@ export default function Footer() {
               <span className="inline-block transform -rotate-3">🏄‍♂️</span>
               <span className="text-xl font-display text-base">Mehdi Assiry SurfShaper</span>
             </div>
-            <p className="text-sm text-base/80">Hand-crafted boards and expert coaching to help you ride the perfect wave.</p>
+            <p className="text-sm text-base/80">Authentic surf guiding, local hosting, and expert board repairs in Bouznika, Morocco.</p>
           </div>
           
           {/* Quick links - more compact */}
@@ -31,7 +31,7 @@ export default function Footer() {
             <ul className="grid gap-0.5">
               <li><a href="/about" className="text-sm text-base/80 hover:text-secondary transition-colors">About Us</a></li>
               <li><a href="/gallery" className="text-sm text-base/80 hover:text-secondary transition-colors">Gallery</a></li>
-              <li><a href="/surf-coach" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Coaching</a></li>
+              <li><a href="/surf-coach" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Guiding & Hosting</a></li>
               <li><a href="/board-repair" className="text-sm text-base/80 hover:text-secondary transition-colors">Board Repairs</a></li>
               <li><a href="/contact" className="text-sm text-base/80 hover:text-secondary transition-colors">Contact</a></li>
             </ul>
@@ -45,10 +45,13 @@ export default function Footer() {
                 <span>📍</span> Bouznika, Morocco
               </p>
               <p className="flex items-center gap-2 text-sm text-base/80">
-                <span>📱</span> (123) 456-7890
+                <span>📱</span> <a href="tel:+212676516328" className="hover:text-secondary">+212 676-516328</a>
+                <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center ml-2">
+                  <img src="/whatsapp.svg" alt="WhatsApp" width={18} height={18} />
+                </a>
               </p>
               <p className="flex items-center gap-2 text-sm text-base/80">
-                <span>✉️</span> info@surfshaper.com
+                <span>✉️</span> <a href="mailto:mehdiassiriy@gmail.com" className="hover:text-secondary">mehdiassiriy@gmail.com</a>
               </p>
             </div>
           </div>

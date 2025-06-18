@@ -8,10 +8,13 @@ export default function ContactPage() {
 
       <div className="space-y-4">
         <p>
-          <strong>Email:</strong> <a href="mailto:info@surfshaper.com" className="text-blue-600 hover:underline">info@surfshaper.com</a> {/* Replace with actual email */}
+          <strong>Email:</strong> <a href="mailto:mehdiassiriy@gmail.com" className="text-blue-600 hover:underline">mehdiassiriy@gmail.com</a>
         </p>
-        <p>
-          <strong>Phone:</strong> <a href="tel:+1234567890" className="text-blue-600 hover:underline">+1 (234) 567-890</a> {/* Replace with actual phone */}
+        <p className="flex items-center gap-2">
+          <strong>Phone:</strong> <a href="tel:+212676516328" className="text-blue-600 hover:underline">+212 676-516328</a>
+          <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center ml-2">
+            <img src="/whatsapp.svg" alt="WhatsApp" width={20} height={20} />
+          </a>
         </p>
         <p>
           <strong>Location:</strong> Bouznika, Morocco {/* Updated location */}
