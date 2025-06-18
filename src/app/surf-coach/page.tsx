@@ -21,7 +21,12 @@ export default function SurfCoachPage() {
             <tr className="hover:bg-gray-50">
               <td className="py-2 px-4 border-b">Beginner Lesson (Private)</td>
               <td className="py-2 px-4 border-b">1.5 hours</td>
-              <td className="py-2 px-4 border-b">$80</td>
+              <td className="py-2 px-4 border-b">300dh</td>
+            </tr>
+            <tr className="hover:bg-gray-50">
+              <td className="py-2 px-4 border-b">Group Lesson</td>
+              <td className="py-2 px-4 border-b">1.5 hours</td>
+              <td className="py-2 px-4 border-b">200dh</td>
             </tr>
             <tr className="hover:bg-gray-50">
               <td className="py-2 px-4 border-b">Intermediate Coaching</td>
@@ -31,12 +36,16 @@ export default function SurfCoachPage() {
             <tr className="hover:bg-gray-50">
               <td className="py-2 px-4 border-b">Surf Guiding (Half Day)</td>
               <td className="py-2 px-4 border-b">4 hours</td>
-              <td className="py-2 px-4 border-b">$150</td>
+              <td className="py-2 px-4 border-b">500dh</td>
             </tr>
             {/* Add more pricing tiers */}
           </tbody>
         </table>
       </div>
+      <p className="mt-4 text-sm text-gray-700">
+        Includes material, wetsuit and board.<br />
+        Without wetsuit: <span className="font-semibold">50dh discount</span> if students have their own wetsuit.
+      </p>
       {/* Add call to action button */}
     </div>
   );
