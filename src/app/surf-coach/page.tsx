@@ -28,11 +28,7 @@ export default function SurfCoachPage() {
               <td className="py-2 px-4 border-b">1.5 hours</td>
               <td className="py-2 px-4 border-b">200dh</td>
             </tr>
-            <tr className="hover:bg-gray-50">
-              <td className="py-2 px-4 border-b">Intermediate Coaching</td>
-              <td className="py-2 px-4 border-b">2 hours</td>
-              <td className="py-2 px-4 border-b">$100</td>
-            </tr>
+           
             <tr className="hover:bg-gray-50">
               <td className="py-2 px-4 border-b">Surf Guiding (Half Day)</td>
               <td className="py-2 px-4 border-b">4 hours</td>

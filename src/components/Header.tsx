@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center py-4 px-5">
         <Link href="/" className="text-3xl font-display tracking-wide text-base flex items-center gap-2 hover:opacity-90 transition-opacity">
           <span className="inline-block transform -rotate-3">🏄‍♂️</span>
-          <span>Mehdi Assiry Surf Guide</span>
+          <span>Surfing at Bouz'</span>
         </Link>
         <nav className="hidden md:block">
           <ul className="flex space-x-8 text-base">

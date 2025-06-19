@@ -20,7 +20,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span className="inline-block transform -rotate-3">🏄‍♂️</span>
-              <span className="text-xl font-display text-base">Mehdi Assiry SurfShaper</span>
+              <span className="text-xl font-display text-base">Surfing at Bouz' by Mehdi Assiry</span>
             </div>
             <p className="text-sm text-base/80">Authentic surf guiding, local hosting, and expert board repairs in Bouznika, Morocco.</p>
           </div>
@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-base/10 mt-4 pt-4 text-center text-xs text-base/60">
-          <p>&copy; {new Date().getFullYear()} Mehdi Assiry SurfShaper. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Surfing at Bouz'. All rights reserved.</p>
         </div>
       </div>
     </footer>

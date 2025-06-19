@@ -17,8 +17,8 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "Mehdi Assiry Surf Guide - Bouznika, Morocco | Surf Guiding, Hosting & Repairs",
-  description: "Authentic surf guiding, local hosting, and expert board repair services by Mehdi Assiry in Bouznika, Morocco.",
+  title: "Surfing at Bouz' - Bouznika, Morocco | Surf Guiding, Hosting & Repairs",
+  description: "Authentic surf guiding, local hosting, and expert board repair services in Bouznika, Morocco by Mehdi Assiry.",
 };
 
 export default function RootLayout({
