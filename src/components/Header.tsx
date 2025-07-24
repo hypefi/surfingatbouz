@@ -17,7 +17,10 @@ export default function Header() {
               <Link href="/gallery" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Gallery</Link>
             </li>
             <li>
-              <Link href="/surf-coach" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Surf Guiding & Hosting</Link>
+              <Link href="/surf-guiding" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Surf Guiding</Link>
+            </li>
+            <li>
+              <Link href="/surf-coach" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Surf Coaching</Link>
             </li>
             <li>
               <Link href="/board-repair" className="hover:text-secondary transition-colors font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Board Repair</Link>

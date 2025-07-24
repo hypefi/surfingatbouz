@@ -45,7 +45,7 @@ export default function Footer() {
                 <span>📍</span> Bouznika, Morocco
               </p>
               <p className="flex items-center gap-2 text-sm text-base/80">
-                <span>📱</span> <a href="tel:+212676516328" className="hover:text-secondary">+212 676-516328</a>
+                <span>📱</span> <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">+212 676-516328</a>
                 <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center ml-2">
                   <img src="/whatsapp.svg" alt="WhatsApp" width={18} height={18} />
                 </a>

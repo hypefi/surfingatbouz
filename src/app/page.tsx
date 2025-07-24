@@ -24,9 +24,9 @@ export default function HomePage() {
                 </Link>
                 <Link
                   href="/gallery"
-                  className="bg-white hover:bg-white/90 font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
+                  className="bg-white hover:bg-white/90 text-black font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
                 >
-                  View Boards
+                  Board Repair
                 </Link>
               </div>
             </div>
