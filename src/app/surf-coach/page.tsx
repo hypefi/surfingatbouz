@@ -62,7 +62,7 @@ export default function SurfCoachPage() {
         <div className="flex items-start gap-3 mb-3">
           <span className="text-2xl">📋</span>
           <div>
-            <h3 className="font-display text-lg text-primary mb-2">What's Included</h3>
+            <h3 className="font-display text-lg text-primary mb-2">What&#39;s Included</h3>
             <p className="text-neutral/80 mb-3">All sessions include material, wetsuit and board.</p>
           </div>
         </div>

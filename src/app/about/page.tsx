@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -48,7 +46,7 @@ export default function AboutPage() {
               Passionate Local Surfer & Expert Coach
             </h2>
             <p className="text-lg text-neutral/80 mb-6">
-              Born and raised in Bouznika, I've been riding the waves of Morocco's Atlantic coast for over a decade. 
+              Born and raised in Bouznika, I&#39;ve been riding the waves of Morocco&#39;s Atlantic coast for over a decade. 
               What started as a childhood passion has evolved into a mission to share the magic of surfing with others 
               while preserving the authentic spirit of our local surf culture.
             </p>
@@ -85,11 +83,11 @@ export default function AboutPage() {
             </li>
             <li className="flex items-start gap-3">
               <span className="text-accent mt-1">•</span>
-              <span>Deep knowledge of Bouznika's waves, tides, and surf conditions</span>
+              <span>Deep knowledge of Bouznika&#39;s waves, tides, and surf conditions</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-accent mt-1">•</span>
-              <span>Personalized instruction tailored to each student's skill level</span>
+              <span>Personalized instruction tailored to each student&#39;s skill level</span>
             </li>
             <li className="flex items-start gap-3">
               <span className="text-accent mt-1">•</span>
@@ -132,9 +130,9 @@ export default function AboutPage() {
         <h3 className="text-2xl font-display font-bold text-primary mb-6 text-center">My Philosophy</h3>
         <div className="max-w-3xl mx-auto text-center">
           <p className="text-lg text-neutral/80 mb-6">
-            "Surfing isn't just about riding waves – it's about connecting with the ocean, understanding nature's rhythm, 
+            &quot;Surfing isn&#39;t just about riding waves – it&#39;s about connecting with the ocean, understanding nature&#39;s rhythm, 
             and becoming part of something bigger than yourself. As a local Bouznika surfer, I believe in sharing not just 
-            techniques, but the soul and culture of surfing."
+            techniques, but the soul and culture of surfing.&quot;
           </p>
           <div className="flex justify-center gap-6 text-sm text-neutral/60">
             <div className="flex items-center gap-2">
@@ -185,8 +183,8 @@ export default function AboutPage() {
       <div className="text-center">
         <h3 className="text-2xl font-display font-bold text-primary mb-4">Ready to Surf with Mehdi?</h3>
         <p className="text-neutral/70 mb-6 max-w-2xl mx-auto">
-          Whether you're looking for surf lessons, guiding sessions, or need your board repaired, 
-          I'm here to help you make the most of your time in Bouznika's incredible waves.
+          Whether you&#39;re looking for surf lessons, guiding sessions, or need your board repaired, 
+          I&#39;m here to help you make the most of your time in Bouznika&#39;s incredible waves.
         </p>
         <a
           href="https://wa.me/212676516328?text=Hi Mehdi! I'd like to learn more about your surf coaching and services."

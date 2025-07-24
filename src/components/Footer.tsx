@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="bg-neutral text-base py-8 mt-12 relative">
@@ -20,7 +22,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-1">
               <span className="inline-block transform -rotate-3">🏄‍♂️</span>
-              <span className="text-xl font-display text-base">Surfing at Bouz' by Mehdi Assiry</span>
+              <span className="text-xl font-display text-base">Surfing at Bouz&#39; by Mehdi Assiry</span>
             </div>
             <p className="text-sm text-base/80">Authentic surf guiding, local hosting, and expert board repairs in Bouznika, Morocco.</p>
           </div>
@@ -47,7 +49,7 @@ export default function Footer() {
               <p className="flex items-center gap-2 text-sm text-base/80">
                 <span>📱</span> <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">+212 676-516328</a>
                 <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center ml-2">
-                  <img src="/whatsapp.svg" alt="WhatsApp" width={18} height={18} />
+                  <Image src="/whatsapp.svg" alt="WhatsApp" width={18} height={18} />
                 </a>
               </p>
               <p className="flex items-center gap-2 text-sm text-base/80">
@@ -58,7 +60,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-base/10 mt-4 pt-4 text-center text-xs text-base/60">
-          <p>&copy; {new Date().getFullYear()} Surfing at Bouz'. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Surfing at Bouz&#39;. All rights reserved.</p>
           <p className="mt-2">
             <a 
               href="https://instagram.com/quantum_names" 

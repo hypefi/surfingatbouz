@@ -74,7 +74,7 @@ export default function BoardRepairPage() {
               </div>
             </div>
             <div className="pt-4 border-t border-gray-100">
-              <p className="text-sm text-neutral/80">Repair for dents without cracks, restoring board's original shape.</p>
+              <p className="text-sm text-neutral/80">Repair for dents without cracks, restoring board&#39;s original shape.</p>
             </div>
           </div>
         </div>
@@ -228,7 +228,7 @@ export default function BoardRepairPage() {
       {/* Call to Action */}
       <div className="text-center">
         <a
-          href="https://wa.me/212676516328?text=Hi! I'd like to get a quote for board repair services."
+          href="https://wa.me/212676516328?text=Hi! I&#39;d like to get a quote for board repair services."
           target="_blank"
           rel="noopener noreferrer"
           className="bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"

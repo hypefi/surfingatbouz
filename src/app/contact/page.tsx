@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function ContactPage() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -13,7 +15,7 @@ export default function ContactPage() {
         <p className="flex items-center gap-2">
           <strong>Phone:</strong> <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">+212 676-516328</a>
           <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center ml-2">
-            <img src="/whatsapp.svg" alt="WhatsApp" width={20} height={20} />
+            <Image src="/whatsapp.svg" alt="WhatsApp" width={20} height={20} />
           </a>
         </p>
         <p>

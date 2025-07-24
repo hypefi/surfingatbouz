@@ -234,7 +234,7 @@ export default function SurfGuidingPage() {
         <div className="flex items-start gap-3 mb-4">
           <span className="text-2xl">📋</span>
           <div>
-            <h3 className="font-display text-lg text-primary mb-2">What's Always Included</h3>
+            <h3 className="font-display text-lg text-primary mb-2">What&#39;s Always Included</h3>
             <div className="grid md:grid-cols-2 gap-4">
               <ul className="text-neutral/80 space-y-1 text-sm">
                 <li>• Comfortable villa accommodation</li>

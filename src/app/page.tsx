@@ -23,7 +23,7 @@ export default function HomePage() {
                   Book a Lesson
                 </Link>
                 <Link
-                  href="/gallery"
+                  href="/board-repair"
                   className="bg-white hover:bg-white/90 text-black font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
                 >
                   Board Repair
