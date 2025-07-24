@@ -11,7 +11,7 @@ export default function ContactPage() {
           <strong>Email:</strong> <a href="mailto:mehdiassiriy@gmail.com" className="text-blue-600 hover:underline">mehdiassiriy@gmail.com</a>
         </p>
         <p className="flex items-center gap-2">
-          <strong>Phone:</strong> <a href="tel:+212676516328" className="text-blue-600 hover:underline">+212 676-516328</a>
+          <strong>Phone:</strong> <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">+212 676-516328</a>
           <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center ml-2">
             <img src="/whatsapp.svg" alt="WhatsApp" width={20} height={20} />
           </a>

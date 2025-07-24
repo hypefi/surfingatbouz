@@ -59,6 +59,16 @@ export default function Footer() {
         
         <div className="border-t border-base/10 mt-4 pt-4 text-center text-xs text-base/60">
           <p>&copy; {new Date().getFullYear()} Surfing at Bouz'. All rights reserved.</p>
+          <p className="mt-2">
+            <a 
+              href="https://instagram.com/quantum_names" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-accent hover:text-secondary transition-colors underline"
+            >
+              Made by surfers for surfers 🏄‍♂️
+            </a>
+          </p>
         </div>
       </div>
     </footer>
