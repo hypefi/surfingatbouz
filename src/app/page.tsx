@@ -41,25 +41,25 @@ export default function HomePage() {
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {/* Feature 1 */}
-          <div className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100 transform transition-transform hover:scale-105">
+          <Link href="/surf-guiding" className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100 transform transition-transform hover:scale-105 cursor-pointer block">
             <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-6 text-secondary text-3xl">🏄‍♂️</div>
             <h3 className="font-display text-2xl mb-4 text-primary">Surf Guiding & Hosting</h3>
             <p className="text-neutral/80">Personalized surf guiding to the best local spots, plus comfortable hosting for a true Moroccan surf experience.</p>
-          </div>
+          </Link>
           
           {/* Feature 2 */}
-          <div className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100 transform transition-transform hover:scale-105">
+          <Link href="/surf-coach" className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100 transform transition-transform hover:scale-105 cursor-pointer block">
             <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-6 text-accent text-3xl">🌊</div>
             <h3 className="font-display text-2xl mb-4 text-primary">Surf Coaching</h3>
             <p className="text-neutral/80">Professional instruction for all skill levels, from first-timers to experienced surfers looking to refine technique.</p>
-          </div>
+          </Link>
           
           {/* Feature 3 */}
-          <div className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100 transform transition-transform hover:scale-105">
+          <Link href="/board-repair" className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100 transform transition-transform hover:scale-105 cursor-pointer block">
             <div className="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-xl mb-6 text-primary text-3xl">🔧</div>
             <h3 className="font-display text-2xl mb-4 text-primary">Board Repair</h3>
             <p className="text-neutral/80">Expert repair services to keep your board in top condition, from minor dings to major damage.</p>
-          </div>
+          </Link>
         </div>
       </section>
       

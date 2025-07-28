@@ -231,7 +231,7 @@ export default function BoardRepairPage() {
       <div className="text-center space-y-4">
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://wa.me/212676516328?text=Hi! I&#39;d like to get a quote for board repair services."
+            href="https://wa.me/212676516329?text=Hi! I&#39;d like to get a quote for board repair services."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
@@ -244,7 +244,7 @@ export default function BoardRepairPage() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary font-bold py-3 px-6 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block justify-center"
           >
-            <Image src="/instagram.svg" alt="Instagram" width={20} height={20} />
+                          <Image src="/instagram.svg" alt="Instagram" width={20} height={20} unoptimized />
             Board Repair Gallery
           </a>
         </div>

@@ -15,47 +15,60 @@ export default function SurfCoachPage() {
       {/* Pricing Cards */}
       <div className="grid md:grid-cols-2 gap-6 mb-6">
         {/* Beginner Lesson Card */}
-        <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
-          <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-4 text-accent text-3xl">
-            🏄‍♂️
-          </div>
-          <h3 className="font-display text-xl mb-3 text-primary">Beginner Lesson (Private)</h3>
-          <div className="mb-4">
-            <div className="flex items-baseline gap-2 mb-2">
-              <span className="text-3xl font-bold text-neutral">300</span>
-              <span className="text-lg text-neutral/70">dh</span>
+        <a
+          href="https://wa.me/212676516329?text=Hi! I'd like to book a private beginner surf lesson (300dh for 1.5 hours)."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg cursor-pointer">
+            <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-4 text-accent text-3xl">
+              🏄‍♂️
             </div>
-            <div className="flex items-center gap-2 text-secondary">
-              <span>⏱️</span>
-              <span className="text-sm font-medium">1.5 hours</span>
+            <h3 className="font-display text-xl mb-3 text-primary">Beginner Lesson (Private)</h3>
+            <div className="mb-4">
+              <div className="flex items-baseline gap-2 mb-2">
+                <span className="text-3xl font-bold text-neutral">300</span>
+                <span className="text-lg text-neutral/70">dh</span>
+              </div>
+              <div className="flex items-center gap-2 text-secondary">
+                <span>⏱️</span>
+                <span className="text-sm font-medium">1.5 hours</span>
+              </div>
+            </div>
+            <div className="pt-4 border-t border-gray-100">
+              <p className="text-sm text-neutral/80">Perfect for first-time surfers wanting personalized attention and faster progress.</p>
             </div>
           </div>
-          <div className="pt-4 border-t border-gray-100">
-            <p className="text-sm text-neutral/80">Perfect for first-time surfers wanting personalized attention and faster progress.</p>
-          </div>
-        </div>
+        </a>
 
         {/* Group Lesson Card */}
-        <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
-          <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-4 text-secondary text-3xl">
-            👥
-          </div>
-          <h3 className="font-display text-xl mb-3 text-primary">Group Lesson</h3>
-          <div className="mb-4">
-            <div className="flex items-baseline gap-2 mb-2">
-              <span className="text-3xl font-bold text-neutral">200</span>
-              <span className="text-lg text-neutral/70">dh</span>
+        <a
+          href="https://wa.me/212676516329?text=Hi! I'd like to book a group surf lesson (200dh for 1.5 hours)."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
+        >
+          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg cursor-pointer">
+            <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-4 text-secondary text-3xl">
+              👥
             </div>
-            <div className="flex items-center gap-2 text-secondary">
-              <span>⏱️</span>
-              <span className="text-sm font-medium">1.5 hours</span>
+            <h3 className="font-display text-xl mb-3 text-primary">Group Lesson</h3>
+            <div className="mb-4">
+              <div className="flex items-baseline gap-2 mb-2">
+                <span className="text-3xl font-bold text-neutral">200</span>
+                <span className="text-lg text-neutral/70">dh</span>
+              </div>
+              <div className="flex items-center gap-2 text-secondary">
+                <span>⏱️</span>
+                <span className="text-sm font-medium">1.5 hours</span>
+              </div>
+            </div>
+            <div className="pt-4 border-t border-gray-100">
+              <p className="text-sm text-neutral/80">Learn with friends and meet other surf enthusiasts in a fun, social environment.</p>
             </div>
           </div>
-          <div className="pt-4 border-t border-gray-100">
-            <p className="text-sm text-neutral/80">Learn with friends and meet other surf enthusiasts in a fun, social environment.</p>
-          </div>
-        </div>
-
+        </a>
 
       </div>
 
@@ -94,7 +107,7 @@ export default function SurfCoachPage() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary font-bold py-3 px-6 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block justify-center"
           >
-            <Image src="/instagram.svg" alt="Instagram" width={20} height={20} />
+                          <Image src="/instagram.svg" alt="Instagram" width={20} height={20} unoptimized />
             Surf School Instagram
           </a>
         </div>

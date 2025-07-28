@@ -20,7 +20,7 @@ export default function SurfGuidingPage() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-accent hover:text-secondary transition-colors font-medium"
             >
-              <Image src="/instagram.svg" alt="Instagram" width={18} height={18} />
+              <Image src="/instagram.svg" alt="Instagram" width={18} height={18} unoptimized />
               @surfing_at_bouz
             </a>
           </div>
@@ -102,82 +102,103 @@ export default function SurfGuidingPage() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {/* Weekend Package */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
-            <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-4 text-accent text-3xl">
-              📅
-            </div>
-            <h3 className="font-display text-xl mb-3 text-primary">Weekend Getaway</h3>
-            <div className="mb-4">
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-3xl font-bold text-neutral">1,500</span>
-                <span className="text-lg text-neutral/70">dh</span>
+          <a
+            href="https://wa.me/212676516329?text=Hi! I'd like to book the Weekend Getaway package (1,500dh for 2 days/1 night)."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg cursor-pointer">
+              <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-4 text-accent text-3xl">
+                📅
               </div>
-              <div className="flex items-center gap-2 text-secondary">
-                <span>📅</span>
-                <span className="text-sm font-medium">2 Days / 1 Night</span>
+              <h3 className="font-display text-xl mb-3 text-primary">Weekend Getaway</h3>
+              <div className="mb-4">
+                <div className="flex items-baseline gap-2 mb-2">
+                  <span className="text-3xl font-bold text-neutral">1,500</span>
+                  <span className="text-lg text-neutral/70">dh</span>
+                </div>
+                <div className="flex items-center gap-2 text-secondary">
+                  <span>📅</span>
+                  <span className="text-sm font-medium">2 Days / 1 Night</span>
+                </div>
+              </div>
+              <div className="pt-4 border-t border-gray-100">
+                <ul className="text-sm text-neutral/80 space-y-1">
+                  <li>• Villa accommodation for 1 night</li>
+                  <li>• 2 guided surf sessions</li>
+                  <li>• Equipment included</li>
+                  <li>• Local surf spot guidance</li>
+                </ul>
               </div>
             </div>
-            <div className="pt-4 border-t border-gray-100">
-              <ul className="text-sm text-neutral/80 space-y-1">
-                <li>• Villa accommodation for 1 night</li>
-                <li>• 2 guided surf sessions</li>
-                <li>• Equipment included</li>
-                <li>• Local surf spot guidance</li>
-              </ul>
-            </div>
-          </div>
+          </a>
 
           {/* Week Package */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg relative">
-            <div className="absolute -top-3 -right-3 bg-accent text-primary px-3 py-1 rounded-full text-xs font-bold">
-              POPULAR
-            </div>
-            <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-4 text-secondary text-3xl">
-              🗓️
-            </div>
-            <h3 className="font-display text-xl mb-3 text-primary">Week Experience</h3>
-            <div className="mb-4">
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-3xl font-bold text-neutral">8,500</span>
-                <span className="text-lg text-neutral/70">dh</span>
+          <a
+            href="https://wa.me/212676516329?text=Hi! I'd like to book the Week Experience package (8,500dh for 7 days/6 nights)."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg relative cursor-pointer">
+              <div className="absolute -top-3 -right-3 bg-accent text-primary px-3 py-1 rounded-full text-xs font-bold">
+                POPULAR
               </div>
-              <div className="flex items-center gap-2 text-secondary">
-                <span>📅</span>
-                <span className="text-sm font-medium">7 Days / 6 Nights</span>
+              <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-4 text-secondary text-3xl">
+                🗓️
+              </div>
+              <h3 className="font-display text-xl mb-3 text-primary">Week Experience</h3>
+              <div className="mb-4">
+                <div className="flex items-baseline gap-2 mb-2">
+                  <span className="text-3xl font-bold text-neutral">8,500</span>
+                  <span className="text-lg text-neutral/70">dh</span>
+                </div>
+                <div className="flex items-center gap-2 text-secondary">
+                  <span>📅</span>
+                  <span className="text-sm font-medium">7 Days / 6 Nights</span>
+                </div>
+              </div>
+              <div className="pt-4 border-t border-gray-100">
+                <ul className="text-sm text-neutral/80 space-y-1">
+                  <li>• Villa accommodation for 6 nights</li>
+                  <li>• Daily surf sessions (6 sessions)</li>
+                  <li>• Professional coaching included</li>
+                  <li>• Multiple surf spot exploration</li>
+                  <li>• Local area tours included</li>
+                </ul>
               </div>
             </div>
-            <div className="pt-4 border-t border-gray-100">
-              <ul className="text-sm text-neutral/80 space-y-1">
-                <li>• Villa accommodation for 6 nights</li>
-                <li>• Daily surf sessions (6 sessions)</li>
-                <li>• Professional coaching included</li>
-                <li>• Multiple surf spot exploration</li>
-                <li>• Local area tours included</li>
-              </ul>
-            </div>
-          </div>
+          </a>
 
           {/* Custom Package */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
-            <div className="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-xl mb-4 text-primary text-3xl">
-              ⚙️
-            </div>
-            <h3 className="font-display text-xl mb-3 text-primary">Custom Package</h3>
-            <div className="mb-4">
-              <div className="flex items-baseline gap-2 mb-2">
-                <span className="text-2xl font-bold text-neutral">Custom</span>
+          <a
+            href="https://wa.me/212676516329?text=Hi! I'm interested in creating a custom surf guiding package. Could you help me plan something tailored to my needs?"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block"
+          >
+            <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg cursor-pointer">
+              <div className="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-xl mb-4 text-primary text-3xl">
+                ⚙️
               </div>
-              <div className="text-xs text-accent font-medium">Tailored to your needs</div>
+              <h3 className="font-display text-xl mb-3 text-primary">Custom Package</h3>
+              <div className="mb-4">
+                <div className="flex items-baseline gap-2 mb-2">
+                  <span className="text-2xl font-bold text-neutral">Custom</span>
+                </div>
+                <div className="text-xs text-accent font-medium">Tailored to your needs</div>
+              </div>
+              <div className="pt-4 border-t border-gray-100">
+                <ul className="text-sm text-neutral/80 space-y-1">
+                  <li>• Flexible duration</li>
+                  <li>• Personalized surf coaching</li>
+                  <li>• Group discounts available</li>
+                  <li>• Additional activities can be arranged</li>
+                </ul>
+              </div>
             </div>
-            <div className="pt-4 border-t border-gray-100">
-              <ul className="text-sm text-neutral/80 space-y-1">
-                <li>• Flexible duration</li>
-                <li>• Personalized surf coaching</li>
-                <li>• Group discounts available</li>
-                <li>• Additional activities can be arranged</li>
-              </ul>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
 
@@ -270,7 +291,7 @@ export default function SurfGuidingPage() {
       <div className="text-center space-y-4">
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://wa.me/212676516328?text=Hi! I'd like to book a surf guiding villa experience."
+            href="https://wa.me/212676516329?text=Hi! I'd like to book a surf guiding villa experience."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"

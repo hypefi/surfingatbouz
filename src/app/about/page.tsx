@@ -16,24 +16,15 @@ export default function AboutPage() {
         {/* Profile Image */}
         <div className="flex justify-center lg:justify-start">
           <div className="relative">
-            <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-surf border-4 border-sandy">
-              {/* Placeholder for profile image - replace with actual image */}
-              <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-6xl mb-4">🏄‍♂️</div>
-                  <p className="text-neutral/60 text-sm">Profile Photo</p>
-                  <p className="text-neutral/60 text-xs">Coming Soon</p>
-                </div>
-              </div>
-              {/* Uncomment when you have the actual image */}
-              {/* <Image
-                src="/images/mehdi-profile.jpg"
+            <div className="w-96 h-96 lg:w-[550px] lg:h-[550px] rounded-2xl overflow-hidden shadow-surf border-4 border-sandy relative">
+              <Image
+                src="/images/mehdisurf.jpeg"
                 alt="Mehdi Assiry - Surf Coach & Board Repair Expert"
-                width={320}
-                height={320}
+                fill
                 className="object-cover"
                 priority
-              /> */}
+                sizes="(max-width: 1024px) 384px, 550px"
+              />
             </div>
             {/* Decorative elements */}
             <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-accent/20 rounded-full blur-xl"></div>
@@ -61,7 +52,7 @@ export default function AboutPage() {
               <div className="text-sm text-neutral/70">Years Experience</div>
             </div>
             <div className="bg-sandy/50 rounded-xl p-4 text-center">
-              <div className="text-3xl font-bold text-secondary mb-1">300+</div>
+              <div className="text-3xl font-bold text-secondary mb-1">500+</div>
               <div className="text-sm text-neutral/70">Students Taught</div>
             </div>
           </div>
@@ -74,7 +65,7 @@ export default function AboutPage() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-accent hover:text-secondary transition-colors font-medium px-4 py-2 rounded-full bg-accent/10 hover:bg-accent/20"
             >
-              <Image src="/instagram.svg" alt="Instagram" width={18} height={18} />
+              <Image src="/instagram.svg" alt="Instagram" width={18} height={18} unoptimized />
               Follow @mehdi_assiriy
             </a>
           </div>
@@ -203,7 +194,7 @@ export default function AboutPage() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://wa.me/212676516328?text=Hi Mehdi! I'd like to learn more about your surf coaching and services."
+            href="https://wa.me/212676516329?text=Hi Mehdi! I'd like to learn more about your surf coaching and services."
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
@@ -216,7 +207,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary font-bold py-3 px-6 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
           >
-            <Image src="/instagram.svg" alt="Instagram" width={20} height={20} />
+            <Image src="/instagram.svg" alt="Instagram" width={20} height={20} unoptimized />
             Follow Mehdi on Instagram
           </a>
         </div>

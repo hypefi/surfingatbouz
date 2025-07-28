@@ -33,7 +33,8 @@ export default function Footer() {
             <ul className="grid gap-0.5">
               <li><a href="/about" className="text-sm text-base/80 hover:text-secondary transition-colors">About Us</a></li>
               <li><a href="/gallery" className="text-sm text-base/80 hover:text-secondary transition-colors">Gallery</a></li>
-              <li><a href="/surf-coach" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Guiding & Hosting</a></li>
+              <li><a href="/surf-guiding" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Guiding</a></li>
+              <li><a href="/surf-coach" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Coaching</a></li>
               <li><a href="/board-repair" className="text-sm text-base/80 hover:text-secondary transition-colors">Board Repairs</a></li>
               <li><a href="/contact" className="text-sm text-base/80 hover:text-secondary transition-colors">Contact</a></li>
             </ul>
@@ -47,8 +48,8 @@ export default function Footer() {
                 <span>📍</span> Bouznika, Morocco
               </p>
               <p className="flex items-center gap-2 text-sm text-base/80">
-                <span>📱</span> <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">+212 676-516328</a>
-                <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center ml-2">
+                <span>📱</span> <a href="https://wa.me/212676516329" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">+212 676-516329</a>
+                <a href="https://wa.me/212676516329" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center ml-2">
                   <Image src="/whatsapp.svg" alt="WhatsApp" width={18} height={18} />
                 </a>
               </p>
@@ -56,7 +57,7 @@ export default function Footer() {
                 <span>✉️</span> <a href="mailto:mehdiassiriy@gmail.com" className="hover:text-secondary">mehdiassiriy@gmail.com</a>
               </p>
               <p className="flex items-center gap-2 text-sm text-base/80">
-                <Image src="/instagram.svg" alt="Instagram" width={16} height={16} />
+                <Image src="/instagram.svg" alt="Instagram" width={16} height={16} unoptimized />
                 <a href="https://www.instagram.com/surfing_at_bouz/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">@surfing_at_bouz</a>
               </p>
             </div>

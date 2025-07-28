@@ -6,6 +6,11 @@ const nextConfig: NextConfig = {
     buildActivity: false,
     buildActivityPosition: 'bottom-right'
   },
+  images: {
+    dangerouslyAllowSVG: true,
+    contentDispositionType: 'attachment',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+  },
 };
 
 export default nextConfig;
