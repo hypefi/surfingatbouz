@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function SurfCoachPage() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -78,13 +80,27 @@ export default function SurfCoachPage() {
       </div>
 
       {/* Call to Action */}
-      <div className="text-center mt-8">
-        <a
-          href="/contact"
-          className="bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
-        >
-          Book Your Session
-        </a>
+      <div className="text-center mt-8 space-y-4">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="/contact"
+            className="bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
+          >
+            Book Your Session
+          </a>
+          <a
+            href="https://www.instagram.com/surfing_at_bouz/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary font-bold py-3 px-6 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block justify-center"
+          >
+            <Image src="/instagram.svg" alt="Instagram" width={20} height={20} />
+            Surf School Instagram
+          </a>
+        </div>
+        <p className="text-sm text-neutral/60">
+          Follow @surfing_at_bouz for surf updates and community content
+        </p>
       </div>
     </div>
   );

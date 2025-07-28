@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -53,7 +55,7 @@ export default function AboutPage() {
           </div>
 
           {/* Experience Highlights */}
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 mb-4">
             <div className="bg-sandy/50 rounded-xl p-4 text-center">
               <div className="text-3xl font-bold text-primary mb-1">10+</div>
               <div className="text-sm text-neutral/70">Years Experience</div>
@@ -62,6 +64,19 @@ export default function AboutPage() {
               <div className="text-3xl font-bold text-secondary mb-1">300+</div>
               <div className="text-sm text-neutral/70">Students Taught</div>
             </div>
+          </div>
+
+          {/* Social Media */}
+          <div className="flex justify-center">
+            <a
+              href="https://www.instagram.com/mehdi_assiriy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-accent hover:text-secondary transition-colors font-medium px-4 py-2 rounded-full bg-accent/10 hover:bg-accent/20"
+            >
+              <Image src="/instagram.svg" alt="Instagram" width={18} height={18} />
+              Follow @mehdi_assiriy
+            </a>
           </div>
         </div>
       </div>
@@ -186,14 +201,25 @@ export default function AboutPage() {
           Whether you&#39;re looking for surf lessons, guiding sessions, or need your board repaired, 
           I&#39;m here to help you make the most of your time in Bouznika&#39;s incredible waves.
         </p>
-        <a
-          href="https://wa.me/212676516328?text=Hi Mehdi! I'd like to learn more about your surf coaching and services."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
-        >
-          Connect with Mehdi on WhatsApp
-        </a>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <a
+            href="https://wa.me/212676516328?text=Hi Mehdi! I'd like to learn more about your surf coaching and services."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-accent hover:bg-accent/90 text-primary font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
+          >
+            Connect with Mehdi on WhatsApp
+          </a>
+          <a
+            href="https://www.instagram.com/mehdi_assiriy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-primary font-bold py-3 px-6 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md"
+          >
+            <Image src="/instagram.svg" alt="Instagram" width={20} height={20} />
+            Follow Mehdi on Instagram
+          </a>
+        </div>
       </div>
     </div>
   );

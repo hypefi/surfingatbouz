@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function SurfGuidingPage() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -8,9 +10,20 @@ export default function SurfGuidingPage() {
           <p className="text-lg mb-4 text-neutral/80">
             Experience the ultimate surf adventure with our premium villa accommodation and professional surf guiding services.
           </p>
-          <p className="text-md text-secondary/90 font-medium">
-            Surf lessons and coaching provided by <span className="text-accent font-semibold">Association Bouznika SurfSchool</span>
-          </p>
+          <div className="flex flex-col items-center gap-3">
+            <p className="text-md text-secondary/90 font-medium">
+              Surf lessons and coaching provided by <span className="text-accent font-semibold">Association Bouznika SurfSchool</span>
+            </p>
+            <a
+              href="https://www.instagram.com/surfing_at_bouz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-accent hover:text-secondary transition-colors font-medium"
+            >
+              <Image src="/instagram.svg" alt="Instagram" width={18} height={18} />
+              @surfing_at_bouz
+            </a>
+          </div>
         </div>
       </div>
 

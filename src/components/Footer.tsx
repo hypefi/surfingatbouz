@@ -55,6 +55,10 @@ export default function Footer() {
               <p className="flex items-center gap-2 text-sm text-base/80">
                 <span>✉️</span> <a href="mailto:mehdiassiriy@gmail.com" className="hover:text-secondary">mehdiassiriy@gmail.com</a>
               </p>
+              <p className="flex items-center gap-2 text-sm text-base/80">
+                <Image src="/instagram.svg" alt="Instagram" width={16} height={16} />
+                <a href="https://www.instagram.com/surfing_at_bouz/" target="_blank" rel="noopener noreferrer" className="hover:text-secondary">@surfing_at_bouz</a>
+              </p>
             </div>
           </div>
         </div>
