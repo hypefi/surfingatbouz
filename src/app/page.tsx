@@ -18,15 +18,15 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-start">
                 <Link
                   href="/surf-coach"
-                  className="bg-accent hover:bg-accent/90 font-bold py-3 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all transform hover:-translate-y-0.5 shadow-md text-center"
+                  className="bg-accent hover:bg-accent/90 font-bold py-3 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 shadow-md hover:shadow-xl text-center group"
                 >
-                  Book a Lesson
+                  <span className="group-hover:animate-pulse">Book a Lesson</span>
                 </Link>
                 <Link
                   href="/board-repair"
-                  className="bg-white hover:bg-white/90 text-black font-bold py-3 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all transform hover:-translate-y-0.5 shadow-md text-center"
+                  className="bg-white hover:bg-white/95 text-black font-bold py-3 px-6 sm:px-8 rounded-full text-base sm:text-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 shadow-md hover:shadow-xl text-center group border-2 border-transparent hover:border-white/50"
                 >
-                  Board Repair
+                  <span className="group-hover:animate-pulse">Board Repair</span>
                 </Link>
               </div>
             </div>
@@ -72,9 +72,10 @@ export default function HomePage() {
           </p>
           <Link
             href="/contact"
-            className="bg-accent hover:bg-accent/90 font-bold py-3 px-8 rounded-full text-lg transition-all transform hover:-translate-y-0.5 shadow-md inline-block"
+            className="bg-accent hover:bg-accent/90 font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 shadow-md hover:shadow-xl inline-block group relative overflow-hidden"
           >
-            Get in Touch
+            <span className="relative z-10 group-hover:animate-bounce">Get in Touch</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-accent to-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </Link>
         </div>
       </section>
