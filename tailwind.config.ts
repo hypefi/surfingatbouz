@@ -18,6 +18,7 @@ const config: Config = {
         accent: '#ff7a5a',
         neutral: '#1a2a3a',
         'base': '#f9fbfc',
+        'card': '#f1f5f9',
         'sandy': '#f2e9d8',
       },
       backgroundImage: {

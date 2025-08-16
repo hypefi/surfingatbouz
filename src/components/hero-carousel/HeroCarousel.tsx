@@ -32,7 +32,7 @@ const HeroCarousel = ({
 
   if (!isClient) {
     return (
-      <div className="hero-carousel relative w-screen h-screen">
+      <div className="hero-carousel relative w-screen h-full">
         <div className="w-full h-full relative">
           <div className="absolute inset-0 bg-black/50 z-10"></div>
           <div className="relative z-30 w-full">{children}</div>
@@ -42,7 +42,7 @@ const HeroCarousel = ({
   }
 
   return (
-    <div className="hero-carousel relative w-screen h-screen overflow-hidden">
+    <div className="hero-carousel relative w-screen h-full overflow-hidden">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"

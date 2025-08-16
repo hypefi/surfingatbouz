@@ -4,8 +4,8 @@ export default function SurfGuidingPage() {
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Hero Section */}
-      <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4 text-primary">Surf Guiding & Villa Experience</h1>
+      <div className="text-center mb-8 md:mb-12">
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-primary">Surf Guiding & Villa Experience</h1>
         <div className="max-w-3xl mx-auto">
           <p className="text-lg mb-4 text-neutral/80">
             Experience the ultimate surf adventure with our premium villa accommodation and professional surf guiding services.
@@ -34,7 +34,7 @@ export default function SurfGuidingPage() {
         </h2>
         
         <div className="grid lg:grid-cols-2 gap-8 mb-8">
-          <div className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100">
+          <div className="bg-card rounded-2xl p-8 shadow-surf border border-gray-200">
             <div className="w-20 h-20 bg-primary/10 flex items-center justify-center rounded-xl mb-6 text-primary text-4xl">
               🏡
             </div>
@@ -63,7 +63,7 @@ export default function SurfGuidingPage() {
             </ul>
           </div>
 
-          <div className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100">
+          <div className="bg-card rounded-2xl p-8 shadow-surf border border-gray-200">
             <div className="w-20 h-20 bg-secondary/10 flex items-center justify-center rounded-xl mb-6 text-secondary text-4xl">
               🎯
             </div>
@@ -100,7 +100,7 @@ export default function SurfGuidingPage() {
           <span>🏄‍♂️</span> Surf Guiding Packages
         </h2>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {/* Weekend Package */}
           <a
             href="https://wa.me/212676516329?text=Hi! I'd like to book the Weekend Getaway package (1,500dh for 2 days/1 night)."
@@ -108,7 +108,7 @@ export default function SurfGuidingPage() {
             rel="noopener noreferrer"
             className="block"
           >
-            <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg cursor-pointer">
+            <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg cursor-pointer">
               <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-4 text-accent text-3xl">
                 📅
               </div>
@@ -141,7 +141,7 @@ export default function SurfGuidingPage() {
             rel="noopener noreferrer"
             className="block"
           >
-            <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg relative cursor-pointer">
+            <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg relative cursor-pointer">
               <div className="absolute -top-3 -right-3 bg-accent text-primary px-3 py-1 rounded-full text-xs font-bold">
                 POPULAR
               </div>
@@ -178,7 +178,7 @@ export default function SurfGuidingPage() {
             rel="noopener noreferrer"
             className="block"
           >
-            <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg cursor-pointer">
+            <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg cursor-pointer">
               <div className="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-xl mb-4 text-primary text-3xl">
                 ⚙️
               </div>

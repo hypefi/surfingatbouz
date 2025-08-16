@@ -3,22 +3,22 @@ import Image from 'next/image';
 export default function BoardRepairPage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-4">Board Repair</h1>
-      <p className="mb-6">
+      <h1 className="text-3xl md:text-4xl font-bold mb-4 text-primary">Board Repair</h1>
+      <p className="mb-6 text-lg text-neutral/80">
         Dings happen! We offer professional surfboard repair services to get
         you back in the water quickly.
       </p>
 
-      <h2 className="text-2xl font-semibold mb-6">Repair Services</h2>
+      <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-primary">Repair Services</h2>
       
       {/* Basic Repairs */}
       <div className="mb-8">
         <h3 className="text-xl font-display text-primary mb-4 flex items-center gap-2">
           <span>🔧</span> Basic Repairs
         </h3>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Small Ding Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-4 text-secondary text-3xl">
               🩹
             </div>
@@ -39,7 +39,7 @@ export default function BoardRepairPage() {
           </div>
 
           {/* Moderate Ding Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-4 text-accent text-3xl">
               🔨
             </div>
@@ -60,7 +60,7 @@ export default function BoardRepairPage() {
           </div>
 
           {/* Pressure Ding Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-xl mb-4 text-primary text-3xl">
               💥
             </div>
@@ -87,9 +87,9 @@ export default function BoardRepairPage() {
         <h3 className="text-xl font-display text-primary mb-4 flex items-center gap-2">
           <span>⚙️</span> Major Repairs
         </h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Fin Box Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-4 text-accent text-3xl">
               🦈
             </div>
@@ -106,7 +106,7 @@ export default function BoardRepairPage() {
           </div>
 
           {/* Leash Plug Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-4 text-secondary text-3xl">
               🔗
             </div>
@@ -123,7 +123,7 @@ export default function BoardRepairPage() {
           </div>
 
           {/* Delamination Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-xl mb-4 text-primary text-3xl">
               🩺
             </div>
@@ -147,9 +147,9 @@ export default function BoardRepairPage() {
         <h3 className="text-xl font-display text-primary mb-4 flex items-center gap-2">
           <span>🎨</span> Specialty Services
         </h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Board Painting Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-accent/10 flex items-center justify-center rounded-xl mb-4 text-accent text-3xl">
               🎨
             </div>
@@ -167,7 +167,7 @@ export default function BoardRepairPage() {
           </div>
 
           {/* Full Restoration Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-4 text-secondary text-3xl">
               ✨
             </div>
@@ -185,7 +185,7 @@ export default function BoardRepairPage() {
           </div>
 
           {/* Wax Removal & Cleaning Card */}
-          <div className="bg-base rounded-2xl p-6 shadow-surf border border-gray-100 transform transition-all hover:scale-105 hover:shadow-lg">
+          <div className="bg-card rounded-2xl p-6 shadow-surf border border-gray-200 transform transition-all hover:scale-105 hover:shadow-lg">
             <div className="w-16 h-16 bg-primary/10 flex items-center justify-center rounded-xl mb-4 text-primary text-3xl">
               🧽
             </div>

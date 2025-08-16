@@ -16,14 +16,14 @@ export default function AboutPage() {
         {/* Profile Image */}
         <div className="flex justify-center lg:justify-start">
           <div className="relative">
-            <div className="w-96 h-96 lg:w-[550px] lg:h-[550px] rounded-2xl overflow-hidden shadow-surf border-4 border-sandy relative">
+            <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[550px] lg:h-[550px] rounded-2xl overflow-hidden shadow-surf border-4 border-sandy relative">
               <Image
                 src="/images/mehdisurf.jpeg"
                 alt="Mehdi Assiry - Surf Coach & Board Repair Expert"
                 fill
                 className="object-cover"
                 priority
-                sizes="(max-width: 1024px) 384px, 550px"
+                sizes="(max-width: 640px) 256px, (max-width: 768px) 320px, (max-width: 1024px) 384px, 550px"
               />
             </div>
             {/* Decorative elements */}
@@ -75,7 +75,7 @@ export default function AboutPage() {
       {/* Expertise Sections */}
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         {/* Surf Coaching */}
-        <div className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100">
+        <div className="bg-card rounded-2xl p-8 shadow-surf border border-gray-200">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
               <span className="text-2xl">🏄‍♂️</span>
@@ -103,7 +103,7 @@ export default function AboutPage() {
         </div>
 
         {/* Board Repair */}
-        <div className="bg-base rounded-2xl p-8 shadow-surf border border-gray-100">
+        <div className="bg-card rounded-2xl p-8 shadow-surf border border-gray-200">
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center">
               <span className="text-2xl">🔧</span>
