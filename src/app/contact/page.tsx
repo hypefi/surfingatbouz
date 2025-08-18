@@ -16,8 +16,8 @@ export default function ContactPage() {
           <p className="flex flex-col sm:flex-row sm:items-center gap-2 mb-4 text-lg">
             <strong className="text-primary">Phone:</strong> 
             <div className="flex items-center gap-2">
-              <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-secondary transition-colors">+212 676-516328</a>
-              <a href="https://wa.me/212676516328" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center">
+              <a href="https://wa.me/212676516329" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-secondary transition-colors">+212 676-516328</a>
+              <a href="https://wa.me/212676516329" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="inline-flex items-center">
                 <Image src="/whatsapp.svg" alt="WhatsApp" width={20} height={20} />
               </a>
             </div>
