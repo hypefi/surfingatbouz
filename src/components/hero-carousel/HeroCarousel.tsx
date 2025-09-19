@@ -13,6 +13,8 @@ import 'swiper/css/effect-fade';
 import './carousel.css';
 
 const images = [
+  "/images/image_assiry_sunset.jpg",
+  "/images/image_sunset.JPG",
   "/images/hero1.jpg",
   "/images/hero2.jpg",
   "/images/hero3.jpg",
