@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Header() {
@@ -17,9 +18,18 @@ export default function Header() {
   return (
     <header className="bg-primary text-base sticky top-0 z-50 shadow-surf">
       <div className="container mx-auto flex justify-between items-center py-4 px-5">
-        <Link href="/" className="text-3xl font-display tracking-wide text-base flex items-center gap-2 hover:opacity-90 transition-opacity">
-          <span className="inline-block transform -rotate-3">🏄‍♂️</span>
-          <span>Surfing at Bouz&#39;</span>
+        <Link href="/" className="flex items-center gap-3 hover:opacity-90 transition-opacity">
+          <div className="relative w-12 h-12 md:w-14 md:h-14">
+            <Image
+              src="/images/logo_surfingatbouz.png"
+              alt="Surfing at Bouz' Logo"
+              fill
+              className="object-contain"
+              priority
+              sizes="(max-width: 768px) 48px, 56px"
+            />
+          </div>
+          <span className="text-2xl md:text-3xl font-display tracking-wide text-base">Surfing at Bouz&#39;</span>
         </Link>
         
         {/* Desktop Navigation */}

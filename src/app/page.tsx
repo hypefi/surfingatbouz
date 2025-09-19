@@ -5,14 +5,14 @@ export default function HomePage() {
   return (
     <div className="flex flex-col overflow-x-hidden">
       {/* Hero Section with Carousel */}
-      <section className="relative md:-mt-8 h-[60vh] md:h-[80vh] w-screen overflow-hidden">
+      <section className="relative md:-mt-8 h-[75vh] md:h-[80vh] w-screen overflow-hidden">
         <HeroCarousel>
-          <div className="container mx-auto px-4 h-full relative z-20 flex items-center justify-start pt-16 md:pt-0">
+          <div className="container mx-auto px-4 h-full relative z-20 flex items-center justify-start pt-12 md:pt-0">
             <div className="max-w-2xl text-white hero-content text-left">
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display mb-4 md:mb-6 leading-tight text-white">
                 Ride the <span className="text-accent">Perfect</span> Wave
               </h1>
-              <p className="text-lg md:text-xl lg:text-2xl mb-6 md:mb-10 text-white/90">
+              <p className="text-lg md:text-xl lg:text-2xl mb-4 md:mb-10 text-white/90">
                 Experience authentic surf guiding and local hosting in Bouznika, Morocco. Let us show you the best waves and make you feel at home, plus expert board repairs to keep you surfing.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-start">

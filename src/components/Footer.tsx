@@ -20,8 +20,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Logo and tagline - kept in one line */}
           <div>
-            <div className="flex items-center gap-2 mb-1">
-              <span className="inline-block transform -rotate-3">🏄‍♂️</span>
+            <div className="flex items-center gap-3 mb-1">
+              <div className="relative w-8 h-8">
+                <Image
+                  src="/images/logo_surfingatbouz.png"
+                  alt="Surfing at Bouz' Logo"
+                  fill
+                  className="object-contain"
+                  sizes="32px"
+                />
+              </div>
               <span className="text-xl font-display text-base">Surfing at Bouz&#39; by Mehdi Assiry</span>
             </div>
             <p className="text-sm text-base/80">Authentic surf guiding, local hosting, and expert board repairs in Bouznika, Morocco.</p>

@@ -19,6 +19,16 @@ const baloo = Baloo_2({
 export const metadata: Metadata = {
   title: "Surfing at Bouz' - Bouznika, Morocco | Surf Guiding, Hosting & Repairs",
   description: "Authentic surf guiding, local hosting, and expert board repair services in Bouznika, Morocco by Mehdi Assiry.",
+  icons: {
+    icon: '/images/logo_surfingatbouz.png',
+    apple: '/images/logo_surfingatbouz.png',
+  },
+  openGraph: {
+    title: "Surfing at Bouz' - Bouznika, Morocco | Surf Guiding, Hosting & Repairs",
+    description: "Authentic surf guiding, local hosting, and expert board repair services in Bouznika, Morocco by Mehdi Assiry.",
+    images: ['/images/logo_surfingatbouz.png'],
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
