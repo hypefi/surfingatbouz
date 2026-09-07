@@ -10,7 +10,7 @@ relatedSlugs:
   - bouznika-surf-spot-guide-for-beginners
   - learn-to-surf-bouznika-beginners
 servicePath: /surf-coach
-image: /images/surf-action-3.jpg
+image: /images/blog/blog-big-wave-ride.jpg
 faq:
   - question: "Is Taghazout too advanced for beginners?"
     answer: "Not always. There are beginner-friendly corners in the south, and plenty of camps teaching first waves. The issue is crowds, travel time from Casa/Rabat, and how easy it is to end up on a peak that is famous rather than suitable."

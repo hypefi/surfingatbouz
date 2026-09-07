@@ -10,7 +10,7 @@ relatedSlugs:
   - learn-to-surf-bouznika-beginners
   - how-long-to-learn-surfing-in-morocco
 servicePath: /surf-coach
-image: /images/surf-lesson-3.jpg
+image: /images/blog/blog-atlantic-sunset.jpg
 faq:
   - question: "Is summer the best time to learn to surf in Morocco?"
     answer: "For most complete beginners in Bouznika, yes: smaller, cleaner days and warmer air make the first pop-up less of a battle. It is also busier on weekends. Winter is for people who already like the ocean or who can be flexible when it is too big."

@@ -10,7 +10,7 @@ relatedSlugs:
   - pressure-ding-vs-crack-surfboard-repair
   - pu-vs-epoxy-ding-repair-morocco
 servicePath: /board-repair
-image: /images/hero2.jpg
+image: /images/blog/blog-surf-spray-action.jpg
 faq:
   - question: "How much is a small ding repair in Bouznika?"
     answer: "A small ding up to about 1 cm on the rail or deck is 100 dh. Moderate damage up to 5 cm is 200 dh. Pressure dings are 150 dh. Bigger jobs are quoted."

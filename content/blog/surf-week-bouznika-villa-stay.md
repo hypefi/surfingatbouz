@@ -10,7 +10,7 @@ relatedSlugs:
   - where-to-surf-near-casablanca
   - learn-to-surf-bouznika-beginners
 servicePath: /surf-guiding
-image: /images/hero1.jpg
+image: /images/blog/blog-oceanfront-stay.jpg
 faq:
   - question: "How much is a surf week in Bouznika?"
     answer: "Our week package is 8,500 dh for 7 days / 6 nights, including villa accommodation, guided surf sessions, and equipment. It is the stay we mark as popular because the ocean is at the door."

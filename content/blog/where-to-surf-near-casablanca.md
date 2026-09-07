@@ -10,7 +10,7 @@ relatedSlugs:
   - bouznika-surf-spot-guide-for-beginners
   - surf-week-bouznika-villa-stay
 servicePath: /surf-guiding
-image: /images/hero1.jpg
+image: /images/blog/blog-open-ocean.jpg
 faq:
   - question: "Can you surf in Casablanca itself?"
     answer: "There is coastline and there are people who paddle out near the city, but Casa is a port metropolis. For a beginner lesson with space and sandbanks we can teach on, Bouznika is the practical answer most weekends."

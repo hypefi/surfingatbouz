@@ -10,7 +10,7 @@ relatedSlugs:
   - learn-to-surf-bouznika-beginners
   - how-long-to-learn-surfing-in-morocco
 servicePath: /surf-coach
-image: /images/surf-lesson-2.jpg
+image: /images/blog/blog-wetsuit-wave.jpg
 faq:
   - question: "Do I need to buy a wetsuit before my first lesson?"
     answer: "No. Our beginner lessons in Bouznika include a wetsuit and a board. Bring your own only if it already fits well — we take 50 dh off if you do."

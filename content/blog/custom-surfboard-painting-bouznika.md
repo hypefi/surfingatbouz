@@ -10,7 +10,7 @@ relatedSlugs:
   - surfboard-ding-repair-bouznika
   - pu-vs-epoxy-ding-repair-morocco
 servicePath: /board-repair
-image: /images/hero4.jpg
+image: /images/blog/blog-paint-palette.jpg
 faq:
   - question: "Can you paint a logo or a Moroccan pattern on my board?"
     answer: "Yes, within what resin and cloth will hold. Simple colour blocks and bold graphics survive the beach better than tiny photographic detail. Bring a reference and we will tell you what will still look like itself after a season of sand."

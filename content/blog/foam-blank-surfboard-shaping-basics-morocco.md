@@ -10,7 +10,7 @@ relatedSlugs:
   - custom-surfboard-painting-bouznika
   - pu-vs-epoxy-ding-repair-morocco
 servicePath: /board-repair
-image: /images/hero2.jpg
+image: /images/blog/blog-workshop-craft.jpg
 faq:
   - question: "Can I watch a surfboard get shaped in Bouznika?"
     answer: "The day-to-day shop is repair, glass, and restoration. Full shaping from a blank is slower, dustier, and not a drop-in tourist activity. If you are serious about a custom, talk first — do not arrive with an afternoon and a dream."

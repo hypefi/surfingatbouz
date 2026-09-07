@@ -10,7 +10,7 @@ relatedSlugs:
   - surfboard-ding-repair-bouznika
   - pu-vs-epoxy-ding-repair-morocco
 servicePath: /board-repair
-image: /images/hero3.jpg
+image: /images/blog/blog-golden-hour-surf.jpg
 faq:
   - question: "What is a pressure ding?"
     answer: "A crush in the foam under glass that is still (mostly) sealed. The deck looks dented. Water may not be pouring in yet. It still changes how the board flexes and can turn into a real crack."

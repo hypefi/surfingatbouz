@@ -10,7 +10,7 @@ relatedSlugs:
   - learn-to-surf-bouznika-beginners
   - private-vs-group-surf-lessons-bouznika
 servicePath: /surf-coach
-image: /images/surf-action-1.jpg
+image: /images/blog/blog-board-on-wave.jpg
 faq:
   - question: "Can I stand up on my first surf lesson in Morocco?"
     answer: "Many complete beginners stand in whitewater during a 1.5-hour first lesson in Bouznika, especially on a small summer day. Standing once is not the same as surfing. It is the start."

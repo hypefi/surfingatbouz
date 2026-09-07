@@ -33,10 +33,15 @@ export const metadata: Metadata = {
   description: SITE_TAGLINE,
   icons: {
     icon: [
+      { url: '/images/logo_surfingatbouz.png', type: 'image/png' },
       { url: '/favicon.ico', sizes: 'any' },
       { url: '/icon.png', type: 'image/png', sizes: '512x512' },
     ],
-    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+    shortcut: '/images/logo_surfingatbouz.png',
+    apple: [
+      { url: '/images/logo_surfingatbouz.png', type: 'image/png' },
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
   openGraph: {
     title: `${SITE_NAME} - Bouznika, Morocco | Surf Guiding, Hosting & Repairs`,

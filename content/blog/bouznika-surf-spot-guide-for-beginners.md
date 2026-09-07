@@ -10,7 +10,7 @@ relatedSlugs:
   - where-to-surf-near-casablanca
   - bouznika-vs-taghazout-for-beginners
 servicePath: /surf-guiding
-image: /images/surf-action-2.jpg
+image: /images/blog/blog-coastal-beach.jpg
 faq:
   - question: "Is Bouznika a reef or a beach break?"
     answer: "Bouznika is primarily a sandy beach break. Banks shift. That is why a local reading the beach in the morning is worth more than a screenshot of last year’s map."

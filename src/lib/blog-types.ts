@@ -18,10 +18,10 @@ export const CATEGORY_LABELS: Record<BlogCategory, string> = {
 
 export const CATEGORY_IMAGES: Record<BlogCategory, string> = {
   'learn-to-surf': '/images/surf-lesson-1.jpg',
-  'morocco-surf-spots': '/images/surf-action-1.jpg',
-  'board-repair': '/images/hero2.jpg',
-  'board-shaping': '/images/hero3.jpg',
-  'surf-trips': '/images/surf-group.jpg',
+  'morocco-surf-spots': '/images/blog/blog-coastal-beach.jpg',
+  'board-repair': '/images/blog/blog-vintage-boards.jpg',
+  'board-shaping': '/images/blog/blog-workshop-craft.jpg',
+  'surf-trips': '/images/blog/blog-oceanfront-stay.jpg',
 };
 
 export const CATEGORY_DESCRIPTIONS: Record<BlogCategory, string> = {

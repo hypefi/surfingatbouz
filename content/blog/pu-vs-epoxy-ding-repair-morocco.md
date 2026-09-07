@@ -10,7 +10,7 @@ relatedSlugs:
   - surfboard-ding-repair-bouznika
   - pressure-ding-vs-crack-surfboard-repair
 servicePath: /board-repair
-image: /images/hero3.jpg
+image: /images/blog/blog-vintage-boards.jpg
 faq:
   - question: "How do I know if my board is PU or epoxy?"
     answer: "Many modern epoxy boards feel lighter, ding less dramatically, and often have a glossy sandwich look. Classic PU/polyester blanks feel a bit heavier and yellow with UV. The stringer and a ding that shows yellow foam are clues — when unsure, bring the board; guessing wrong in a car park is how people buy the wrong repair kit."
