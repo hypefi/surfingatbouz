@@ -1,4 +1,13 @@
 import Image from 'next/image';
+import type { Metadata } from 'next';
+import { pageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = pageMetadata({
+  title: 'Contact — Book Surf Lessons or Board Repair in Bouznika',
+  description:
+    'WhatsApp +212 676-516329 or email mehdiassiriy@gmail.com to book surf lessons, guiding, or surfboard repair in Bouznika, Morocco.',
+  path: '/contact',
+});
 
 export default function ContactPage() {
   return (

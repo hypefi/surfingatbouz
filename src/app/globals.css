@@ -1,5 +1,30 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 @import "../components/hero-carousel/carousel.css";
+
+.article-prose {
+  @apply prose prose-lg max-w-none;
+  --tw-prose-body: #1a2a3a;
+  --tw-prose-headings: #1a73e8;
+  --tw-prose-links: #ff7a5a;
+  --tw-prose-bold: #1a2a3a;
+  --tw-prose-quotes: #1a2a3a;
+  --tw-prose-bullets: #00b8c4;
+}
+
+.article-prose h2,
+.article-prose h3 {
+  font-family: var(--font-baloo), 'Montserrat Alternates', cursive;
+}
+
+.article-prose a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.article-prose a:hover {
+  color: #00b8c4;
+}
 
 /* Base styles */
 body {

@@ -1,5 +1,15 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import HeroCarousel from "@/components/hero-carousel/HeroCarousel";
+import JournalTeasers from "@/components/blog/JournalTeasers";
+import { pageMetadata } from "@/lib/site";
+
+export const metadata: Metadata = pageMetadata({
+  title: "Surf Guiding, Lessons & Board Repair in Bouznika",
+  description:
+    "Learn to surf, stay in an oceanfront villa, and get expert surfboard repairs in Bouznika, Morocco with Mehdi Assiry.",
+  path: "/",
+});
 
 export default function HomePage() {
   return (
@@ -39,7 +49,7 @@ export default function HomePage() {
         <h2 className="text-4xl font-display text-primary text-center mb-12">
           <span className="inline-block border-b-4 border-secondary pb-2">What We Offer</span>
         </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Feature 1 */}
           <Link href="/surf-guiding" className="bg-card rounded-2xl p-8 shadow-surf border border-gray-200 transform transition-transform hover:scale-105 cursor-pointer block">
             <div className="w-16 h-16 bg-secondary/10 flex items-center justify-center rounded-xl mb-6 text-secondary text-3xl">🏄‍♂️</div>
@@ -60,9 +70,20 @@ export default function HomePage() {
             <h3 className="font-display text-2xl mb-4 text-primary">Board Repair</h3>
             <p className="text-neutral/80">Expert repair services to keep your board in top condition, from minor dings to major damage.</p>
           </Link>
+
+          {/* Feature 4 */}
+          <Link href="/store" className="bg-card rounded-2xl p-8 shadow-surf border border-gray-200 transform transition-transform hover:scale-105 cursor-pointer block">
+            <div className="w-16 h-16 bg-sandy flex items-center justify-center rounded-xl mb-6 text-3xl">🛍️</div>
+            <h3 className="font-display text-2xl mb-4 text-primary">Surf Store</h3>
+            <p className="text-neutral/80">Board hangers, wetsuit bags, and accessories — order on WhatsApp for pickup in Bouznika.</p>
+          </Link>
         </div>
       </section>
       
+      <section className="container mx-auto px-4">
+        <JournalTeasers title="From the journal" />
+      </section>
+
       {/* CTA Section */}
       <section className="bg-sandy py-20 mt-16">
         <div className="container mx-auto px-4 text-center">

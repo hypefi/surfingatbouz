@@ -1,4 +1,14 @@
 import Image from 'next/image';
+import type { Metadata } from 'next';
+import { pageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = pageMetadata({
+  title: 'Surf Gallery — Lessons, Waves & Bouznika Life',
+  description:
+    'Photos from surf lessons, guiding sessions, and beach days with Surfing at Bouz\' in Bouznika, Morocco.',
+  path: '/gallery',
+  image: '/images/surf-group.jpg',
+});
 
 export default function GalleryPage() {
   const images = [

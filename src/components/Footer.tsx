@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -39,12 +40,14 @@ export default function Footer() {
           <div>
             <h3 className="text-secondary font-display text-lg mb-1">Quick Links</h3>
             <ul className="grid gap-0.5">
-              <li><a href="/about" className="text-sm text-base/80 hover:text-secondary transition-colors">About Us</a></li>
-              <li><a href="/gallery" className="text-sm text-base/80 hover:text-secondary transition-colors">Gallery</a></li>
-              <li><a href="/surf-guiding" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Guiding</a></li>
-              <li><a href="/surf-coach" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Coaching</a></li>
-              <li><a href="/board-repair" className="text-sm text-base/80 hover:text-secondary transition-colors">Board Repairs</a></li>
-              <li><a href="/contact" className="text-sm text-base/80 hover:text-secondary transition-colors">Contact</a></li>
+              <li><Link href="/about" className="text-sm text-base/80 hover:text-secondary transition-colors">About Us</Link></li>
+              <li><Link href="/gallery" className="text-sm text-base/80 hover:text-secondary transition-colors">Gallery</Link></li>
+              <li><Link href="/surf-guiding" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Guiding</Link></li>
+              <li><Link href="/surf-coach" className="text-sm text-base/80 hover:text-secondary transition-colors">Surf Coaching</Link></li>
+              <li><Link href="/board-repair" className="text-sm text-base/80 hover:text-secondary transition-colors">Board Repairs</Link></li>
+              <li><Link href="/store" className="text-sm text-base/80 hover:text-secondary transition-colors">Store</Link></li>
+              <li><Link href="/blog" className="text-sm text-base/80 hover:text-secondary transition-colors">Blog</Link></li>
+              <li><Link href="/contact" className="text-sm text-base/80 hover:text-secondary transition-colors">Contact</Link></li>
             </ul>
           </div>
           
@@ -74,16 +77,6 @@ export default function Footer() {
         
         <div className="border-t border-base/10 mt-4 pt-4 text-center text-xs text-base/60">
           <p>&copy; {new Date().getFullYear()} Surfing at Bouz&#39;. All rights reserved.</p>
-          <p className="mt-2">
-            <a 
-              href="https://instagram.com/quantum_names" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-accent hover:text-secondary transition-colors underline"
-            >
-              Made by surfers for surfers 🏄‍♂️
-            </a>
-          </p>
         </div>
       </div>
     </footer>

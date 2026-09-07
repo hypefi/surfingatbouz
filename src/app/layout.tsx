@@ -3,6 +3,14 @@ import { Quicksand, Baloo_2 } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
+import {
+  SITE_NAME,
+  SITE_TAGLINE,
+  SITE_URL,
+  BUSINESS,
+  localBusinessJsonLd,
+} from "@/lib/site";
 
 const quicksand = Quicksand({
   subsets: ["latin"],
@@ -17,17 +25,39 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "Surfing at Bouz' - Bouznika, Morocco | Surf Guiding, Hosting & Repairs",
-  description: "Authentic surf guiding, local hosting, and expert board repair services in Bouznika, Morocco by Mehdi Assiry.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${SITE_NAME} - Bouznika, Morocco | Surf Guiding, Hosting & Repairs`,
+    template: `%s | ${SITE_NAME}`,
+  },
+  description: SITE_TAGLINE,
   icons: {
-    icon: '/images/logo_surfingatbouz.png',
-    apple: '/images/logo_surfingatbouz.png',
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/icon.png', type: 'image/png', sizes: '512x512' },
+    ],
+    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
   },
   openGraph: {
-    title: "Surfing at Bouz' - Bouznika, Morocco | Surf Guiding, Hosting & Repairs",
-    description: "Authentic surf guiding, local hosting, and expert board repair services in Bouznika, Morocco by Mehdi Assiry.",
-    images: ['/images/logo_surfingatbouz.png'],
-    type: 'website',
+    title: `${SITE_NAME} - Bouznika, Morocco | Surf Guiding, Hosting & Repairs`,
+    description: SITE_TAGLINE,
+    url: SITE_URL,
+    siteName: SITE_NAME,
+    locale: "en_US",
+    type: "website",
+    images: [{ url: BUSINESS.ogImage, alt: `${SITE_NAME} in Bouznika, Morocco` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} - Bouznika, Morocco`,
+    description: SITE_TAGLINE,
+    images: [BUSINESS.ogImage],
+  },
+  alternates: {
+    canonical: SITE_URL,
+    types: {
+      "application/rss+xml": "/feed.xml",
+    },
   },
 };
 
@@ -55,6 +85,7 @@ export default function RootLayout({
       <body
         className="font-sans antialiased flex flex-col min-h-screen bg-base text-neutral overflow-x-hidden"
       >
+        <JsonLd data={localBusinessJsonLd()} />
         <Header />
         <main className="flex-grow w-full">
           {children}

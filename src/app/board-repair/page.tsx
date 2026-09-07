@@ -1,4 +1,15 @@
 import Image from 'next/image';
+import type { Metadata } from 'next';
+import JournalTeasers from '@/components/blog/JournalTeasers';
+import { pageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = pageMetadata({
+  title: 'Surfboard Repair in Bouznika — Dings, Fins & Restoration',
+  description:
+    'Professional surfboard ding repair, fin box, leash plug, delamination, painting, and restoration in Bouznika, Morocco. From 100 dh.',
+  path: '/board-repair',
+  image: '/images/hero2.jpg',
+});
 
 export default function BoardRepairPage() {
   return (
@@ -315,6 +326,8 @@ export default function BoardRepairPage() {
           Follow @bloc.operatoire for before/after repair photos and tips
         </p>
       </div>
+
+      <JournalTeasers servicePath="/board-repair" title="Board craft & repair notes" />
     </div>
   );
 } 

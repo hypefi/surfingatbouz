@@ -1,4 +1,14 @@
 import Image from 'next/image';
+import type { Metadata } from 'next';
+import { pageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = pageMetadata({
+  title: 'About Mehdi Assiry — Surf Coach in Bouznika',
+  description:
+    'Meet Mehdi Assiry, local surf guide, coach, and board repair specialist in Bouznika, Morocco, with 10+ years in the water.',
+  path: '/about',
+  image: '/images/mehdisurf.jpeg',
+});
 
 export default function AboutPage() {
   return (

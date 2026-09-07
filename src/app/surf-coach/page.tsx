@@ -1,4 +1,15 @@
 import Image from 'next/image';
+import type { Metadata } from 'next';
+import JournalTeasers from '@/components/blog/JournalTeasers';
+import { pageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = pageMetadata({
+  title: 'Surf Lessons in Bouznika — Beginner & Group Coaching',
+  description:
+    'Private (300 dh) and group (200 dh) surf lessons in Bouznika, Morocco. Board and wetsuit included, taught with Association Bouznika SurfSchool.',
+  path: '/surf-coach',
+  image: '/images/surf-lesson-1.jpg',
+});
 
 export default function SurfCoachPage() {
   return (
@@ -115,6 +126,8 @@ export default function SurfCoachPage() {
           Follow @surfing_at_bouz for surf updates and community content
         </p>
       </div>
+
+      <JournalTeasers servicePath="/surf-coach" title="Guides for learning to surf" />
     </div>
   );
 } 

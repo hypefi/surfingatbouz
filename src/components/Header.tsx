@@ -51,6 +51,12 @@ export default function Header() {
               <Link href="/board-repair" className="hover:text-secondary transition-all duration-300 font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full transform hover:scale-105">Board Repair</Link>
             </li>
             <li>
+              <Link href="/store" className="hover:text-secondary transition-all duration-300 font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full transform hover:scale-105">Store</Link>
+            </li>
+            <li>
+              <Link href="/blog" className="hover:text-secondary transition-all duration-300 font-medium py-2 px-1 relative after:absolute after:w-0 after:h-0.5 after:bg-secondary after:left-0 after:-bottom-1 after:transition-all after:duration-300 hover:after:w-full transform hover:scale-105">Blog</Link>
+            </li>
+            <li>
               <Link href="/contact" className="bg-accent hover:bg-accent/90 text-primary font-bold py-2 px-5 rounded-full transition-all duration-300 transform hover:-translate-y-1 hover:scale-110 shadow-md hover:shadow-lg group relative overflow-hidden">
                 <span className="relative z-10 group-hover:animate-pulse">Contact</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-accent to-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
@@ -74,7 +80,7 @@ export default function Header() {
       {/* Mobile Menu */}
       <div className={`md:hidden transition-all duration-300 ease-in-out ${
         mobileMenuOpen 
-          ? 'max-h-96 opacity-100' 
+          ? 'max-h-[40rem] opacity-100' 
           : 'max-h-0 opacity-0 overflow-hidden'
       }`}>
         <nav className="bg-primary border-t border-base/10">
@@ -122,6 +128,24 @@ export default function Header() {
                 className="block py-2 px-3 text-base hover:text-secondary hover:bg-base/10 rounded transition-all duration-300 font-medium transform hover:scale-105 hover:translate-x-2"
               >
                 Board Repair
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="/store" 
+                onClick={closeMobileMenu}
+                className="block py-2 px-3 text-base hover:text-secondary hover:bg-base/10 rounded transition-all duration-300 font-medium transform hover:scale-105 hover:translate-x-2"
+              >
+                Store
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="/blog" 
+                onClick={closeMobileMenu}
+                className="block py-2 px-3 text-base hover:text-secondary hover:bg-base/10 rounded transition-all duration-300 font-medium transform hover:scale-105 hover:translate-x-2"
+              >
+                Blog
               </Link>
             </li>
             <li>

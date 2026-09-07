@@ -1,0 +1,258 @@
+{
+  "keywords": [
+    {
+      "id": "learn-surf-bouznika-beginners",
+      "phrase": "learn to surf in Bouznika Morocco for beginners",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "commercial",
+      "status": "published",
+      "publishedSlug": "learn-to-surf-bouznika-beginners"
+    },
+    {
+      "id": "first-surf-lesson-morocco-what-to-bring",
+      "phrase": "first surf lesson Morocco what to bring",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "first-surf-lesson-morocco-what-to-bring"
+    },
+    {
+      "id": "private-vs-group-surf-lessons-rabat-casablanca",
+      "phrase": "private vs group surf lessons Rabat Casablanca coast",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "commercial",
+      "status": "published",
+      "publishedSlug": "private-vs-group-surf-lessons-bouznika"
+    },
+    {
+      "id": "how-long-learn-surfing-morocco",
+      "phrase": "how long does it take to learn surfing in Morocco",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "how-long-to-learn-surfing-in-morocco"
+    },
+    {
+      "id": "surf-coaching-complete-beginners-bouznika",
+      "phrase": "surf coaching for complete beginners Bouznika",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "id": "best-surfboard-beginner-lessons-morocco",
+      "phrase": "best surfboard for beginner lessons Morocco",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "informational",
+      "status": "pending"
+    },
+    {
+      "id": "learn-pop-up-atlantic-waves-morocco",
+      "phrase": "learning to pop up on a surfboard in small Atlantic waves",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "informational",
+      "status": "pending"
+    },
+    {
+      "id": "bouznika-surf-spot-guide-beginners",
+      "phrase": "Bouznika surf spot guide for beginners",
+      "category": "morocco-surf-spots",
+      "servicePath": "/surf-guiding",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "bouznika-surf-spot-guide-for-beginners"
+    },
+    {
+      "id": "where-to-surf-near-casablanca",
+      "phrase": "where to surf near Casablanca Morocco",
+      "category": "morocco-surf-spots",
+      "servicePath": "/surf-guiding",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "where-to-surf-near-casablanca"
+    },
+    {
+      "id": "surfing-between-rabat-and-casablanca",
+      "phrase": "surfing between Rabat and Casablanca Atlantic coast",
+      "category": "morocco-surf-spots",
+      "servicePath": "/surf-guiding",
+      "intent": "informational",
+      "status": "pending"
+    },
+    {
+      "id": "bouznika-vs-taghazout-beginners",
+      "phrase": "Bouznika vs Taghazout which is better for beginner surfers",
+      "category": "morocco-surf-spots",
+      "servicePath": "/surf-coach",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "bouznika-vs-taghazout-for-beginners"
+    },
+    {
+      "id": "best-beginner-surf-beaches-morocco-atlantic",
+      "phrase": "best beginner surf beaches Morocco Atlantic",
+      "category": "morocco-surf-spots",
+      "servicePath": "/surf-guiding",
+      "intent": "informational",
+      "status": "pending"
+    },
+    {
+      "id": "surf-week-bouznika-villa-stay",
+      "phrase": "surf week Bouznika Morocco villa stay",
+      "category": "surf-trips",
+      "servicePath": "/surf-guiding",
+      "intent": "commercial",
+      "status": "published",
+      "publishedSlug": "surf-week-bouznika-villa-stay"
+    },
+    {
+      "id": "weekend-surf-trip-casablanca-bouznika",
+      "phrase": "weekend surf trip from Casablanca to Bouznika",
+      "category": "surf-trips",
+      "servicePath": "/surf-guiding",
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "id": "oceanfront-surf-hosting-bouznika",
+      "phrase": "oceanfront surf hosting Bouznika what to expect",
+      "category": "surf-trips",
+      "servicePath": "/surf-guiding",
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "id": "surfboard-ding-repair-bouznika",
+      "phrase": "surfboard ding repair Bouznika Morocco",
+      "category": "board-repair",
+      "servicePath": "/board-repair",
+      "intent": "commercial",
+      "status": "published",
+      "publishedSlug": "surfboard-ding-repair-bouznika"
+    },
+    {
+      "id": "pressure-ding-vs-crack-repair",
+      "phrase": "pressure ding vs crack when to repair your surfboard",
+      "category": "board-repair",
+      "servicePath": "/board-repair",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "pressure-ding-vs-crack-surfboard-repair"
+    },
+    {
+      "id": "fin-box-repair-morocco-cost",
+      "phrase": "fin box repair Morocco how much it costs",
+      "category": "board-repair",
+      "servicePath": "/board-repair",
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "id": "same-day-ding-repair-casablanca",
+      "phrase": "same day surfboard ding repair near Casablanca",
+      "category": "board-repair",
+      "servicePath": "/board-repair",
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "id": "when-surfboard-ding-needs-pro-repair",
+      "phrase": "how to know if a surfboard ding needs professional repair",
+      "category": "board-repair",
+      "servicePath": "/board-repair",
+      "intent": "informational",
+      "status": "pending"
+    },
+    {
+      "id": "leash-plug-repair-morocco",
+      "phrase": "surfboard leash plug repair Morocco",
+      "category": "board-repair",
+      "servicePath": "/board-repair",
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "id": "surfboard-restoration-yellowed-morocco",
+      "phrase": "surfboard restoration Morocco yellowed board",
+      "category": "board-shaping",
+      "servicePath": "/board-repair",
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "id": "pu-vs-epoxy-ding-repair-morocco",
+      "phrase": "PU vs epoxy ding repair Morocco",
+      "category": "board-shaping",
+      "servicePath": "/board-repair",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "pu-vs-epoxy-ding-repair-morocco"
+    },
+    {
+      "id": "custom-surfboard-painting-bouznika",
+      "phrase": "custom surfboard painting Bouznika",
+      "category": "board-shaping",
+      "servicePath": "/board-repair",
+      "intent": "commercial",
+      "status": "published",
+      "publishedSlug": "custom-surfboard-painting-bouznika"
+    },
+    {
+      "id": "delamination-repair-polyurethane-surfboard",
+      "phrase": "delamination repair on a polyurethane surfboard",
+      "category": "board-shaping",
+      "servicePath": "/board-repair",
+      "intent": "informational",
+      "status": "pending"
+    },
+    {
+      "id": "foam-blank-shaping-basics-morocco",
+      "phrase": "foam blank surfboard shaping basics Morocco",
+      "category": "board-shaping",
+      "servicePath": "/board-repair",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "foam-blank-surfboard-shaping-basics-morocco"
+    },
+    {
+      "id": "surf-school-bouznika-morocco",
+      "phrase": "surf school Bouznika Morocco",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "commercial",
+      "status": "pending"
+    },
+    {
+      "id": "best-time-year-learn-surfing-morocco-atlantic",
+      "phrase": "best time of year to learn surfing Morocco Atlantic",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "informational",
+      "status": "published",
+      "publishedSlug": "best-time-of-year-to-learn-surfing-morocco"
+    },
+    {
+      "id": "wetsuit-or-springsuit-bouznika",
+      "phrase": "wetsuit or spring suit surfing Bouznika",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "informational",
+      "status": "pending"
+    },
+    {
+      "id": "association-bouznika-surfschool-what-to-expect",
+      "phrase": "Association Bouznika SurfSchool lessons what to expect",
+      "category": "learn-to-surf",
+      "servicePath": "/surf-coach",
+      "intent": "commercial",
+      "status": "pending"
+    }
+  ]
+}

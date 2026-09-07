@@ -1,4 +1,15 @@
 import Image from 'next/image';
+import type { Metadata } from 'next';
+import JournalTeasers from '@/components/blog/JournalTeasers';
+import { pageMetadata } from '@/lib/site';
+
+export const metadata: Metadata = pageMetadata({
+  title: 'Surf Guiding & Oceanfront Villa in Bouznika',
+  description:
+    'Weekend (1,500 dh) and week (8,500 dh) surf stays with oceanfront villa hosting and guided sessions in Bouznika, Morocco.',
+  path: '/surf-guiding',
+  image: '/images/hero1.jpg',
+});
 
 export default function SurfGuidingPage() {
   return (
@@ -309,6 +320,8 @@ export default function SurfGuidingPage() {
           Contact us for group bookings, extended stays, or custom packages
         </p>
       </div>
+
+      <JournalTeasers servicePath="/surf-guiding" title="Planning a surf stay" />
     </div>
   );
 } 
