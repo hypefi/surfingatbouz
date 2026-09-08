@@ -7,7 +7,7 @@ import { absoluteUrl, pageMetadata, SITE_NAME } from '@/lib/site';
 export const metadata: Metadata = pageMetadata({
   title: 'Surf Store — Board Hangers, Wetsuit Bags & Accessories',
   description:
-    'Shop surf accessories from Surfing at Bouz’ in Bouznika: bamboo surfboard hangers and 2-in-1 wetsuit changing mat dry bags. Order on WhatsApp.',
+    'Shop surf accessories from Surfing at Bouz’ in Bouznika: light-wood surfboard hangers and 2-in-1 wetsuit changing mat dry bags. Order on WhatsApp.',
   path: '/store',
   image: '/images/accessories/prepared/surfboard-hanger-hero.jpg',
 });

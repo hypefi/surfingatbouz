@@ -22,18 +22,18 @@ export interface StoreProduct {
 export const PRODUCTS: StoreProduct[] = [
   {
     slug: 'surfboard-hanger',
-    name: 'Bamboo Surfboard Hanger — 3 Boards',
+    name: 'Surfboard Hanger — 3 Boards',
     shortName: 'Surfboard Hanger',
     tagline: 'Vertical quiver storage with cork protection and a base drawer',
     description:
-      'A freestanding bamboo-style surfboard rack made for home or villa storage. Three padded slots keep boards upright and protected, side hooks hold a leash or damp wetsuit, and the base drawer stashes wax, fins, and tools. Clean enough for a living room, strong enough for a daily quiver in Bouznika.',
+      'A freestanding light-wood surfboard rack made for home or villa storage. Three padded slots keep boards upright and protected, side hooks hold a leash or damp wetsuit, and the base drawer stashes wax, fins, and tools. Clean enough for a living room, strong enough for a daily quiver in Bouznika.',
     category: 'accessories',
-    priceDh: null,
+    priceDh: 1300,
     currency: 'dh',
     images: [
       {
         src: '/images/accessories/prepared/surfboard-hanger-hero.jpg',
-        alt: 'Bamboo freestanding surfboard hanger for three boards on a white background',
+        alt: 'Light-wood freestanding surfboard hanger for three boards on a white background',
       },
       {
         src: '/images/accessories/prepared/surfboard-hanger-drawer.jpg',
@@ -55,7 +55,7 @@ export const PRODUCTS: StoreProduct[] = [
     ],
     inStock: true,
     whatsappMessage:
-      "Hi! I'm interested in the Bamboo Surfboard Hanger (3 boards) from the Surfing at Bouz' store. Can you confirm availability, price, and pickup/delivery?",
+      "Hi! I'd like to order the Surfboard Hanger (3 boards) for 1,300 dh from the Surfing at Bouz' store. Can you confirm availability and pickup/delivery?",
   },
   {
     slug: 'wetsuit-bag',
@@ -65,7 +65,7 @@ export const PRODUCTS: StoreProduct[] = [
     description:
       'Change out of a sandy wetsuit without wrecking the car or the villa floor. Lay it flat as a circular changing mat, then pull the red drawstring and it becomes a sealed dry bag for your wet suit. Tough charcoal shell, wipe-clean teal waterproof lining — built for Atlantic sessions in Morocco.',
     category: 'accessories',
-    priceDh: null,
+    priceDh: 200,
     currency: 'dh',
     images: [
       {
@@ -92,7 +92,7 @@ export const PRODUCTS: StoreProduct[] = [
     ],
     inStock: true,
     whatsappMessage:
-      "Hi! I'd like to order the Wetsuit Changing Mat & Dry Bag from the Surfing at Bouz' store. Can you confirm availability, price, and pickup/delivery?",
+      "Hi! I'd like to order the Wetsuit Changing Mat & Dry Bag for 200 dh from the Surfing at Bouz' store. Can you confirm availability and pickup/delivery?",
   },
 ];
 
