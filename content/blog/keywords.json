@@ -42,7 +42,8 @@
       "category": "learn-to-surf",
       "servicePath": "/surf-coach",
       "intent": "commercial",
-      "status": "pending"
+      "status": "published",
+      "publishedSlug": "surf-coaching-complete-beginners-bouznika"
     },
     {
       "id": "best-surfboard-beginner-lessons-morocco",
