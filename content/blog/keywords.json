@@ -51,7 +51,8 @@
       "category": "learn-to-surf",
       "servicePath": "/surf-coach",
       "intent": "informational",
-      "status": "pending"
+      "status": "published",
+      "publishedSlug": "best-surfboard-for-beginner-lessons-morocco"
     },
     {
       "id": "learn-pop-up-atlantic-waves-morocco",
