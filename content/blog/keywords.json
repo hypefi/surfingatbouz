@@ -87,7 +87,8 @@
       "category": "morocco-surf-spots",
       "servicePath": "/surf-guiding",
       "intent": "informational",
-      "status": "pending"
+      "status": "published",
+      "publishedSlug": "surfing-between-rabat-and-casablanca-atlantic-coast"
     },
     {
       "id": "bouznika-vs-taghazout-beginners",
